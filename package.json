@@ -1,0 +1,22 @@
+{
+  "name": "dyad-cli",
+  "version": "0.2.0",
+  "description": "Dyad — AI directive analyzer for Claude Code and any terminal",
+  "type": "module",
+  "bin": {
+    "dyad": "./bin/dyad.js",
+    "dyad-hook": "./hooks/dyad-hook.js"
+  },
+  "scripts": {
+    "setup": "node install.js",
+    "test": "node --test test/analyzer.test.js test/filter.test.js test/corpus.test.js"
+  },
+  "keywords": ["claude", "ai", "directive", "ambiguity", "linguistics", "cli"],
+  "author": "BilinCo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathaninterpretation-collab/dyad-cli.git"
+  },
+  "engines": { "node": ">=18" }
+}
