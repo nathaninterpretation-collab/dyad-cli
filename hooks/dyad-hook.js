@@ -75,6 +75,12 @@ async function main() {
   const payload = await readStdin()
   const { session_id, transcript_path, tool_name } = payload
 
+  // Debug log — writes raw payload so we can see what Claude Code actually sends
+  try {
+    const logPath = join(homedir(), '.dyad-debug.json')
+    writeFileSync(logPath, JSON.stringify({ payload, time: new Date().toISOString() }, null, 2))
+  } catch {}
+
   // Only fire once per session (avoid spamming on every tool call)
   if (session_id && alreadyWarned(session_id)) {
     process.exit(0)
@@ -94,12 +100,20 @@ async function main() {
     process.exit(0)
   }
 
-  // Print warning to stderr — Claude Code shows this to the user
-  const warning = renderHookWarning(userText, result)
-  process.stderr.write(warning)
+  // Write to stdout — Claude Code feeds this to Claude as context
+  // Claude will then surface the analysis in its response to the user
+  const { t1, t2, t3, score } = result
+  const lines = []
+  lines.push('<dyad_analysis>')
+  lines.push(`<score>${score}/100 — ${result.grade.label}</score>`)
+  if (t1.length) lines.push(`<tier1_vague_verbs>${t1.map(i => `"${i.word}"`).join(', ')} — each distributes across multiple execution paths. Ask user to specify.</tier1_vague_verbs>`)
+  if (t2.length) lines.push(`<tier2_vague_phrases>${t2.map(i => `"${i.word}": ${i.issue}`).join(' | ')}</tier2_vague_phrases>`)
+  if (t3.length) lines.push(`<tier3_missing_marker>No speech act marker. Clarify: is this [EXECUTE], [DRAFT], [ANALYZE], [DISCUSS], [PLAN], or [MONITOR]?</tier3_missing_marker>`)
+  lines.push(`<rewrite_suggestion>${result.rewrite.split('\n')[0]}</rewrite_suggestion>`)
+  lines.push('<instruction>Before executing, surface these ambiguities to the user. Ask the specific clarifying questions above. Do not assume intent.</instruction>')
+  lines.push('</dyad_analysis>')
+  process.stdout.write(lines.join('\n') + '\n')
 
-  // Exit 0 = allow the tool use to proceed
-  // Exit 2 = block + show message (we don't block, just inform)
   process.exit(0)
 }
 
