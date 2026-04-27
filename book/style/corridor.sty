@@ -1,0 +1,191 @@
+% corridor.sty — typography and layout for The Last Corridor (omnibus edition)
+% Mintao Huang · 黄敏韬 · BilinCo · April 2026
+\ProvidesPackage{corridor}[2026/04/27 The Last Corridor — typography]
+
+\RequirePackage{geometry}
+\geometry{
+  paperwidth=140mm, paperheight=210mm,
+  inner=22mm, outer=18mm, top=22mm, bottom=24mm,
+  headsep=8mm, footskip=12mm
+}
+
+\RequirePackage{fontspec}
+\RequirePackage{xeCJK}
+\RequirePackage{microtype}
+\RequirePackage{csquotes}
+\RequirePackage{ragged2e}
+\RequirePackage{setspace}
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{titlesec}
+\RequirePackage{titletoc}
+\RequirePackage{fancyhdr}
+\RequirePackage{lettrine}
+\RequirePackage[bottom,hang,flushmargin]{footmisc}
+\RequirePackage{soul}
+\RequirePackage{etoolbox}
+\RequirePackage{enumitem}
+\RequirePackage{calc}
+\RequirePackage{xpatch}
+
+% Fonts: prefer high-quality serifs if present, fall back to Latin Modern.
+\IfFontExistsTF{Linux Libertine O}{
+  \setmainfont{Linux Libertine O}[Numbers=OldStyle, Ligatures=TeX]
+}{
+  \IfFontExistsTF{TeX Gyre Pagella}{
+    \setmainfont{TeX Gyre Pagella}[Ligatures=TeX]
+  }{
+    \setmainfont{Latin Modern Roman}[Ligatures=TeX]
+  }
+}
+\IfFontExistsTF{TeX Gyre Heros}{
+  \setsansfont{TeX Gyre Heros}[Scale=MatchLowercase]
+}{}
+\IfFontExistsTF{TeX Gyre Cursor}{
+  \setmonofont{TeX Gyre Cursor}[Scale=MatchLowercase]
+}{}
+
+% CJK font for hanzi — Noto Serif CJK preferred.
+\IfFontExistsTF{Noto Serif CJK SC}{
+  \setCJKmainfont{Noto Serif CJK SC}
+}{
+  \IfFontExistsTF{Noto Sans CJK SC}{
+    \setCJKmainfont{Noto Sans CJK SC}
+  }{}
+}
+
+% Colors
+\definecolor{ink}{HTML}{1A1A1A}
+\definecolor{rule}{HTML}{6B6B6B}
+\definecolor{accent}{HTML}{8B0000}      % corridor red — used sparingly
+\definecolor{dim}{HTML}{8A8A8A}
+\definecolor{paper}{HTML}{FAF8F3}
+
+\color{ink}
+
+% Line spacing — slight leading for readability of recursive prose
+\setstretch{1.18}
+
+% Paragraph indentation
+\setlength{\parindent}{1.4em}
+\setlength{\parskip}{0pt}
+
+% Chapter heads — minimal, asymmetric, with a single rule and a hanzi motif slot.
+\titleformat{\chapter}[display]
+  {\normalfont\sffamily\color{ink}}
+  {\filright\small\textcolor{dim}{CHAPTER \thechapter}}
+  {1.2em}
+  {\Huge\itshape\filright}
+  [\vspace{0.4em}{\color{rule}\rule{8em}{0.4pt}}]
+\titlespacing*{\chapter}{0pt}{*4}{*3}
+
+% Part heads — the two Books are \part-level
+\titleformat{\part}[display]
+  {\normalfont\sffamily\color{ink}\centering}
+  {\large\textcolor{dim}{\MakeUppercase{\partname}~\thepart}}
+  {2em}
+  {\Huge\itshape}
+  [\vspace{1em}{\color{rule}\rule{14em}{0.5pt}}]
+
+% Section ornament — used in body for "·  ·  ·" style breaks
+\newcommand{\corridorbreak}{%
+  \par\medskip
+  \noindent\hfill{\color{rule}\(\diamond\quad\diamond\quad\diamond\)}\hfill\null
+  \par\medskip
+}
+
+% A subtler in-chapter break used in the source as "·  ·  ·"
+\newcommand{\quietbreak}{%
+  \par\medskip
+  \noindent\hfill{\color{dim}\large\(\cdot\quad\cdot\quad\cdot\)}\hfill\null
+  \par\medskip
+}
+
+% Pull-quote / reflective passage block — for the italicized stanzas the source uses.
+\newenvironment{reflection}{%
+  \par\medskip
+  \begingroup
+  \itshape
+  \color{ink}
+  \leftskip=2.2em
+  \rightskip=1.8em
+  \setlength{\parskip}{0.4em}
+  \noindent\hspace*{-1.4em}{\color{accent}\rule[-0.2em]{1pt}{1.2em}}\hspace{0.7em}\ignorespaces
+}{%
+  \par
+  \endgroup
+  \medskip
+}
+
+% Tribunal-speech block — for COUNSELOR exchanges. Sans, indented, dim rule on the left.
+\newenvironment{tribunal}[1]{%
+  \par\smallskip
+  \begingroup
+  \sffamily\small
+  \leftskip=2.4em
+  \rightskip=1.6em
+  \setlength{\parskip}{0.3em}
+  \noindent\hspace*{-1.6em}{\color{rule}\rule[-0.2em]{0.6pt}{1.1em}}\hspace{0.6em}%
+  {\textbf{\textsc{#1}}\hspace{0.6em}}\ignorespaces
+}{%
+  \par
+  \endgroup
+  \smallskip
+}
+
+% Lattice-Olen interior monologue block — boxed in dim rule, used in Book 2.
+\newenvironment{latticelog}{%
+  \par\smallskip
+  \begingroup
+  \small\itshape
+  \leftskip=2.0em
+  \rightskip=1.6em
+  \setlength{\parskip}{0.4em}
+  \noindent\hspace*{-2.0em}{\color{rule}\rule[-0.2em]{0.5pt}{1.1em}}\hspace{1.4em}\ignorespaces
+}{%
+  \par
+  \endgroup
+  \smallskip
+}
+
+% Drop cap helper for chapter openings
+\renewcommand{\LettrineFontHook}{\itshape\color{ink}}
+\setlength{\DefaultNindent}{0pt}
+\setcounter{DefaultLines}{2}
+
+% Running heads — minimal: book title verso, chapter title recto, in small caps, dim.
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\small\color{dim}\thepage}
+\fancyhead[CE]{\footnotesize\color{dim}\textsc{The Last Corridor}}
+\fancyhead[CO]{\footnotesize\color{dim}\textsc{\leftmark}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+% A part-page style with no header
+\fancypagestyle{partpage}{\fancyhf{}\fancyfoot[C]{\small\color{dim}\thepage}}
+
+% Title-page macros
+\newcommand{\halftitle}[1]{%
+  \begin{titlepage}\thispagestyle{empty}\centering\vspace*{6cm}
+  {\Huge\itshape #1}\par
+  \vfill
+  \end{titlepage}
+}
+
+% A figure helper for diagrams that should sit centered with a small caption
+\newcommand{\corridorfig}[3][0.78\textwidth]{%
+  \begin{figure}[htbp]\centering
+    \includegraphics[width=#1]{figures/#2}\\[0.5em]
+    {\footnotesize\itshape\color{dim} #3}
+  \end{figure}
+}
+
+% Letterspaced small caps for institutional voice (tribunal language)
+\newcommand{\inst}[1]{\textsc{\so{#1}}}
+
+% Bilinco / framework header decoration (used on title pages only)
+\newcommand{\bilinco}{\footnotesize\color{dim}\textsc{Bilinco \ {\(\cdot\)} \ Philosophical Fiction}}
+
+\endinput

@@ -1,0 +1,54 @@
+% The Last Corridor — Omnibus Edition
+% Books One & Two
+% Mintao Huang · 黄敏韬
+% BilinCo · Philosophical Fiction · April 2026
+%
+% Build: ./build.sh
+% Or: xelatex -interaction=nonstopmode book.tex (twice)
+
+\documentclass[11pt,oneside]{book}
+\usepackage{style/corridor}
+
+\title{The Last Corridor}
+\author{Mintao Huang \enspace · \enspace 黄敏韬}
+\date{April 2026}
+
+\begin{document}
+
+% ----- FRONT MATTER -----
+\frontmatter
+\pagestyle{empty}
+
+\input{meta/halftitle}
+\clearpage
+\input{meta/titlepage}
+\clearpage
+\input{meta/copyright}
+\clearpage
+\input{meta/dedication}
+\clearpage
+\input{meta/epigraph}
+\clearpage
+
+\pagestyle{fancy}
+\setcounter{tocdepth}{0}
+\tableofcontents
+\clearpage
+
+\input{meta/preface}
+\clearpage
+
+% ----- BOOK ONE -----
+\mainmatter
+\input{parts/book_one}
+\input{parts/b1_chapters}
+
+% ----- BOOK TWO -----
+\input{parts/book_two}
+\input{parts/b2_chapters}
+
+% ----- BACK MATTER -----
+\backmatter
+\input{meta/colophon}
+
+\end{document}
