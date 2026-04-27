@@ -183,6 +183,37 @@
   \end{figure}
 }
 
+% Full-page figure occupying its own page entirely. The dense Hofstadter-style
+% diagrams need this. Caption sits below in the thinking margin.
+\newcommand{\fullpagefig}[3][1.05\textwidth]{%
+  \clearpage
+  \thispagestyle{empty}
+  \null\vfill
+  \begin{center}
+    \includegraphics[width=#1,height=0.86\textheight,keepaspectratio]{figures/#2}\\[0.8em]
+    \begin{minipage}{0.86\textwidth}\centering
+      \footnotesize\itshape\color{dim} #3
+    \end{minipage}
+  \end{center}
+  \vfill
+  \clearpage
+}
+
+% Hanzi-seal frontispiece — a single seal motif on its own page.
+\newcommand{\hanziseal}[2]{%
+  \clearpage
+  \thispagestyle{empty}
+  \null\vfill
+  \begin{center}
+    \includegraphics[height=0.66\textheight,keepaspectratio]{figures/motifs/#1}\\[1.4em]
+    \begin{minipage}{0.7\textwidth}\centering
+      \footnotesize\itshape\color{dim} #2
+    \end{minipage}
+  \end{center}
+  \vfill
+  \clearpage
+}
+
 % Letterspaced small caps for institutional voice (tribunal language)
 \newcommand{\inst}[1]{{\addfontfeature{LetterSpace=8.0}\textsc{#1}}}
 

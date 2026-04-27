@@ -1,60 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="serif" font-size="14" fill="#1A1A1A">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1300" font-family="serif" fill="#1A1A1A">
   <defs>
-    <pattern id="excl" patternUnits="userSpaceOnUse" width="20" height="20">
-      <path d="M0 10 L20 10" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
-      <path d="M10 0 L10 20" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
+    <pattern id="paper2" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#FAF8F3"/>
     </pattern>
-    <radialGradient id="happenGlow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.42"/>
-      <stop offset="60%" stop-color="#8B0000" stop-opacity="0.13"/>
+    <pattern id="exclLines" patternUnits="userSpaceOnUse" width="22" height="22">
+      <path d="M0 11 L22 11" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
+      <path d="M11 0 L11 22" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
+    </pattern>
+    <pattern id="phenom" patternUnits="userSpaceOnUse" width="14" height="14">
+      <circle cx="7" cy="7" r="0.7" fill="#8B0000" opacity="0.45"/>
+    </pattern>
+    <pattern id="brick2" patternUnits="userSpaceOnUse" width="40" height="20">
+      <rect width="40" height="20" fill="#8B0000" opacity="0.78"/>
+      <path d="M 0 0 L 40 0 M 0 20 L 40 20 M 20 0 L 20 10 M 0 10 L 40 10 M 0 10 L 0 20 M 40 10 L 40 20"
+            stroke="#FAF8F3" stroke-width="0.6" opacity="0.7"/>
+    </pattern>
+    <radialGradient id="phenomR" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.34"/>
+      <stop offset="60%" stop-color="#8B0000" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
     </radialGradient>
+    <marker id="arrL" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1A1A1A"/>
+    </marker>
   </defs>
 
-  <text x="400" y="32" text-anchor="middle" font-style="italic" font-size="18">The Language–Phenomenal Boundary</text>
-  <line x1="290" y1="48" x2="510" y2="48" stroke="#8A8A8A" stroke-width="0.6"/>
+  <rect width="1100" height="1300" fill="url(#paper2)"/>
 
-  <!-- Left: structural domain -->
-  <g transform="translate(40,90)">
-    <rect width="300" height="240" fill="url(#excl)" stroke="#1A1A1A" stroke-width="1.2"/>
-    <text x="150" y="-12" text-anchor="middle" font-size="15" font-style="italic">structural description</text>
-    <text x="150" y="30" text-anchor="middle" font-size="13">language · math · code</text>
-    <text x="150" y="62" text-anchor="middle" font-size="12" fill="#6B6B6B">cat = not bat, not car, not cut</text>
-    <text x="150" y="118" text-anchor="middle" font-size="36" font-style="italic" font-weight="bold">EXCLUSION</text>
-    <text x="150" y="160" text-anchor="middle" font-size="12" fill="#6B6B6B">value through differential relation</text>
-    <text x="150" y="180" text-anchor="middle" font-size="12" fill="#6B6B6B">this-not-that</text>
-    <text x="150" y="220" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">— Saussure, 1916 —</text>
+  <text x="550" y="58" text-anchor="middle" font-style="italic" font-size="32">The L/P Boundary</text>
+  <text x="550" y="84" text-anchor="middle" font-size="14" fill="#6B6B6B" font-style="italic">why no operation in language reaches the phenomenon</text>
+  <line x1="370" y1="100" x2="730" y2="100" stroke="#8A8A8A" stroke-width="0.7"/>
+
+  <!-- ===== LEFT : the differential network ===== -->
+  <g transform="translate(60,170)">
+    <text x="200" y="-12" text-anchor="middle" font-size="14" font-style="italic">LANGUAGE  ·  the differential network</text>
+    <rect x="0" y="0" width="400" height="430" fill="url(#exclLines)" stroke="#1A1A1A" stroke-width="1.4"/>
+
+    <!-- Saussure subgraph: cat / bat / car / cut -->
+    <g transform="translate(200,140)" font-size="14">
+      <circle cx="0" cy="0" r="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" font-style="italic">cat</text>
+
+      <circle cx="-90" cy="-60" r="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+      <text x="-90" y="-56" text-anchor="middle" font-style="italic">bat</text>
+      <line x1="-22" y1="0" x2="-68" y2="-50" stroke="#1A1A1A" stroke-width="0.6" stroke-dasharray="3 2"/>
+      <text x="-66" y="-22" text-anchor="middle" font-size="9" fill="#6B6B6B">≠</text>
+
+      <circle cx="90" cy="-60" r="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+      <text x="90" y="-56" text-anchor="middle" font-style="italic">car</text>
+      <line x1="22" y1="0" x2="68" y2="-50" stroke="#1A1A1A" stroke-width="0.6" stroke-dasharray="3 2"/>
+      <text x="66" y="-22" text-anchor="middle" font-size="9" fill="#6B6B6B">≠</text>
+
+      <circle cx="0" cy="80" r="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+      <text x="0" y="84" text-anchor="middle" font-style="italic">cut</text>
+      <line x1="0" y1="22" x2="0" y2="58" stroke="#1A1A1A" stroke-width="0.6" stroke-dasharray="3 2"/>
+      <text x="14" y="48" text-anchor="middle" font-size="9" fill="#6B6B6B">≠</text>
+
+      <text x="0" y="130" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">value through differential relation only</text>
+    </g>
+
+    <!-- Logic / formal layer -->
+    <g transform="translate(60,310)" font-size="11" font-family="serif">
+      <text font-style="italic" fill="#6B6B6B">formal layer:</text>
+      <text x="0" y="18">∀x.  Px → Qx</text>
+      <text x="0" y="34">∃y.  ¬Px ∧ Ry</text>
+      <text x="0" y="50">⊢ φ ⟺ ⊢ ¬¬φ</text>
+    </g>
+
+    <g transform="translate(220,310)" font-size="11" font-family="monospace">
+      <text font-family="serif" font-style="italic" fill="#6B6B6B">computational layer:</text>
+      <text x="0" y="18">if (input == "X") emit Y</text>
+      <text x="0" y="34">while (state ≠ HALT) step()</text>
+      <text x="0" y="50">return ¬p ∨ q</text>
+    </g>
+
+    <text x="200" y="408" text-anchor="middle" font-size="12" font-weight="bold" letter-spacing="3">EXCLUSION</text>
   </g>
 
-  <!-- The wall -->
-  <g transform="translate(380,90)">
-    <rect width="40" height="240" fill="#8B0000" opacity="0.78"/>
-    <text x="20" y="-12" text-anchor="middle" font-size="13" fill="#8B0000" font-style="italic">the wall</text>
-    <g font-size="12" fill="#FFFFFF" font-style="italic">
-      <text x="20" y="80" text-anchor="middle">L</text>
-      <text x="20" y="125" text-anchor="middle">/</text>
-      <text x="20" y="170" text-anchor="middle">P</text>
+  <!-- ===== THE WALL ===== -->
+  <g transform="translate(490,170)">
+    <rect x="0" y="0" width="120" height="430" fill="url(#brick2)" stroke="#5C0000" stroke-width="0.7"/>
+    <text x="60" y="-12" text-anchor="middle" font-size="14" fill="#8B0000" font-style="italic">the wall</text>
+
+    <g font-size="36" fill="#FAF8F3" font-style="italic" font-weight="bold">
+      <text x="60" y="60" text-anchor="middle">L</text>
+      <text x="60" y="110" text-anchor="middle">/</text>
+      <text x="60" y="160" text-anchor="middle">P</text>
+    </g>
+
+    <!-- 6 sealed gates with the source's six arguments -->
+    <g font-size="9" fill="#FAF8F3">
+      <rect x="6" y="200" width="108" height="26" fill="none" stroke="#FAF8F3" stroke-width="0.6"/>
+      <text x="60" y="216" text-anchor="middle" font-size="9">gate 1 ·  Cogito</text>
+      <rect x="6" y="226" width="108" height="26" fill="none" stroke="#FAF8F3" stroke-width="0.6"/>
+      <text x="60" y="242" text-anchor="middle" font-size="9">gate 2 ·  Nagel's bat</text>
+      <rect x="6" y="252" width="108" height="26" fill="none" stroke="#FAF8F3" stroke-width="0.6"/>
+      <text x="60" y="268" text-anchor="middle" font-size="9">gate 3 ·  Mary's red</text>
+      <rect x="6" y="278" width="108" height="26" fill="none" stroke="#FAF8F3" stroke-width="0.6"/>
+      <text x="60" y="294" text-anchor="middle" font-size="9">gate 4 ·  Chinese Room</text>
+      <rect x="6" y="304" width="108" height="26" fill="none" stroke="#FAF8F3" stroke-width="0.6"/>
+      <text x="60" y="320" text-anchor="middle" font-size="9">gate 5 ·  Leibniz Mill</text>
+      <rect x="6" y="330" width="108" height="26" fill="none" stroke="#FAF8F3" stroke-width="0.6"/>
+      <text x="60" y="346" text-anchor="middle" font-size="9">gate 6 ·  Zombie</text>
+    </g>
+
+    <text x="60" y="396" text-anchor="middle" font-size="9" fill="#FAF8F3" font-style="italic">all sealed from this side</text>
+    <text x="60" y="412" text-anchor="middle" font-size="9" fill="#FAF8F3" font-style="italic">by their own architecture</text>
+  </g>
+
+  <!-- ===== RIGHT : the phenomenal field ===== -->
+  <g transform="translate(640,170)">
+    <text x="200" y="-12" text-anchor="middle" font-size="14" font-style="italic" fill="#8B0000">PHENOMENON  ·  the felt field</text>
+    <rect x="0" y="0" width="400" height="430" fill="url(#phenom)" stroke="#8B0000" stroke-width="1.4"/>
+
+    <!-- discrete qualia, each its own little glow -->
+    <g>
+      <circle cx="80" cy="80" r="34" fill="url(#phenomR)"/>
+      <text x="80" y="82" text-anchor="middle" font-size="13" font-style="italic">redness</text>
+      <text x="80" y="100" text-anchor="middle" font-size="9" fill="#6B6B6B">a positive presence</text>
+
+      <circle cx="220" cy="60" r="30" fill="url(#phenomR)"/>
+      <text x="220" y="64" text-anchor="middle" font-size="13" font-style="italic">pain</text>
+
+      <circle cx="320" cy="120" r="32" fill="url(#phenomR)"/>
+      <text x="320" y="118" text-anchor="middle" font-size="11" font-style="italic">the warmth</text>
+      <text x="320" y="132" text-anchor="middle" font-size="9" fill="#6B6B6B">that is not temperature</text>
+
+      <circle cx="100" cy="200" r="34" fill="url(#phenomR)"/>
+      <text x="100" y="200" text-anchor="middle" font-size="11" font-style="italic">ginger's bite</text>
+      <text x="100" y="214" text-anchor="middle" font-size="9" fill="#6B6B6B">at the tongue's edge</text>
+
+      <circle cx="240" cy="220" r="34" fill="url(#phenomR)"/>
+      <text x="240" y="218" text-anchor="middle" font-size="13" font-style="italic">her hand</text>
+      <text x="240" y="232" text-anchor="middle" font-size="9" fill="#6B6B6B">on yours</text>
+
+      <circle cx="340" cy="240" r="28" fill="url(#phenomR)"/>
+      <text x="340" y="244" text-anchor="middle" font-size="11" font-style="italic">the gold</text>
+    </g>
+
+    <!-- explanation -->
+    <g transform="translate(60,310)" font-size="11">
+      <text font-style="italic" fill="#6B6B6B">production mode:</text>
+      <text x="0" y="18">no reference to a contrast.</text>
+      <text x="0" y="34">redness is not "not-blueness".</text>
+      <text x="0" y="50">redness is the specific felt</text>
+      <text x="0" y="66">quality of redness happening.</text>
+    </g>
+
+    <text x="200" y="408" text-anchor="middle" font-size="12" font-weight="bold" letter-spacing="3" fill="#8B0000">HAPPENING</text>
+  </g>
+
+  <!-- ===== THE PROBE : a structural attempt to cross ===== -->
+  <g transform="translate(550,640)">
+    <text x="0" y="-10" text-anchor="middle" font-size="14" font-style="italic">a structural probe attempting the crossing</text>
+
+    <!-- probe body -->
+    <line x1="-200" y1="20" x2="160" y2="20" stroke="#1A1A1A" stroke-width="1.2"/>
+    <polygon points="160,12 184,20 160,28" fill="#1A1A1A"/>
+
+    <!-- the wall section -->
+    <rect x="170" y="-8" width="34" height="56" fill="url(#brick2)" stroke="#5C0000" stroke-width="0.6"/>
+
+    <!-- residue on far side: structural shadow only -->
+    <g transform="translate(240,20)" font-size="10">
+      <text x="0" y="-10" font-style="italic" fill="#6B6B6B">what arrives:</text>
+      <text x="0" y="6">a label.</text>
+      <text x="0" y="22">"redness"</text>
+      <text x="0" y="38" fill="#6B6B6B" font-style="italic">— the word, not the colour —</text>
+    </g>
+
+    <text x="-200" y="50" font-size="10" fill="#6B6B6B" font-style="italic">what was sent:</text>
+    <text x="-200" y="64" font-size="10">a structural description of redness</text>
+  </g>
+
+  <!-- ===== TYPE TABLE ===== -->
+  <g transform="translate(60,790)">
+    <rect x="0" y="0" width="980" height="200" fill="none" stroke="#1A1A1A" stroke-width="0.8" rx="3"/>
+    <text x="490" y="-8" text-anchor="middle" font-size="13" font-style="italic">where the type-mismatch is constitutive, not practical</text>
+
+    <g font-size="11">
+      <text x="20" y="24" font-style="italic" fill="#6B6B6B">aspect</text>
+      <text x="320" y="24" font-style="italic" fill="#6B6B6B">EXCLUSION (left)</text>
+      <text x="660" y="24" font-style="italic" fill="#6B6B6B">HAPPENING (right)</text>
+      <line x1="20" y1="32" x2="960" y2="32" stroke="#8A8A8A" stroke-width="0.4"/>
+
+      <text x="20" y="52">production mode</text>
+      <text x="320" y="52">differential relations</text>
+      <text x="660" y="52" fill="#8B0000">positive presence</text>
+
+      <text x="20" y="72">value source</text>
+      <text x="320" y="72">what the sign is not</text>
+      <text x="660" y="72" fill="#8B0000">what the quality is</text>
+
+      <text x="20" y="92">verifiability from outside</text>
+      <text x="320" y="92">total</text>
+      <text x="660" y="92" fill="#8B0000">none</text>
+
+      <text x="20" y="112">verifiability from inside</text>
+      <text x="320" y="112">none required</text>
+      <text x="660" y="112" fill="#8B0000">total — by being it</text>
+
+      <text x="20" y="132">accumulation</text>
+      <text x="320" y="132">more contrast → finer specification</text>
+      <text x="660" y="132" fill="#8B0000">irrelevant — happenings don't accumulate</text>
+
+      <text x="20" y="152">what crosses the wall</text>
+      <text x="320" y="152">labels of phenomena</text>
+      <text x="660" y="152" fill="#8B0000">first-person reports</text>
+
+      <text x="20" y="172">what does not cross</text>
+      <text x="320" y="172">the phenomena themselves</text>
+      <text x="660" y="172" fill="#8B0000">verifiability of their existence</text>
     </g>
   </g>
 
-  <!-- Right: phenomenal domain -->
-  <g transform="translate(460,90)">
-    <rect width="300" height="240" fill="url(#happenGlow)" stroke="#8B0000" stroke-width="1.2"/>
-    <text x="150" y="-12" text-anchor="middle" font-size="15" font-style="italic">felt experience</text>
-    <text x="150" y="30" text-anchor="middle" font-size="13">pain · redness · the warmth</text>
-    <text x="150" y="62" text-anchor="middle" font-size="12" fill="#6B6B6B">pain hurts; redness happens</text>
-    <text x="150" y="118" text-anchor="middle" font-size="36" font-style="italic" font-weight="bold" fill="#8B0000">HAPPENING</text>
-    <text x="150" y="160" text-anchor="middle" font-size="12" fill="#6B6B6B">value through positive presence</text>
-    <text x="150" y="180" text-anchor="middle" font-size="12" fill="#6B6B6B">this-IS-this</text>
-    <text x="150" y="220" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">— the corridor reports —</text>
+  <!-- ===== THE TWO MOVES ===== -->
+  <g transform="translate(550,1050)">
+    <text x="0" y="-8" text-anchor="middle" font-size="13" font-style="italic">the two moves available, and what each costs</text>
+
+    <g transform="translate(-440,10)">
+      <rect width="380" height="180" fill="none" stroke="#1A1A1A" stroke-width="0.8"/>
+      <text x="190" y="22" text-anchor="middle" font-size="12" font-style="italic">deny World III</text>
+      <text x="20" y="56" font-size="11">+  saves Occam's razor</text>
+      <text x="20" y="78" font-size="11">+  preserves explanatory closure</text>
+      <text x="20" y="100" font-size="11">−  makes "I feel" a syntactic accident</text>
+      <text x="20" y="122" font-size="11">−  forfeits Olen's testimony as evidence</text>
+      <text x="20" y="144" font-size="11">−  loses the ground of moral asymmetry</text>
+      <text x="20" y="166" font-size="10" fill="#6B6B6B" font-style="italic">— the Tribunal's choice —</text>
+    </g>
+
+    <g transform="translate(60,10)">
+      <rect width="380" height="180" fill="none" stroke="#8B0000" stroke-width="1"/>
+      <text x="190" y="22" text-anchor="middle" font-size="12" font-style="italic" fill="#8B0000">grant World III</text>
+      <text x="20" y="56" font-size="11">+  vindicates first-personal report</text>
+      <text x="20" y="78" font-size="11">+  preserves the asymmetry that grounds value</text>
+      <text x="20" y="100" font-size="11">−  surrenders structural verifiability</text>
+      <text x="20" y="122" font-size="11">−  expands ontological commitment by one</text>
+      <text x="20" y="144" font-size="11">−  the proof of the third world is its own absence</text>
+      <text x="20" y="166" font-size="10" fill="#8B0000" font-style="italic">— Olen's choice — and Sera's —</text>
+    </g>
   </g>
 
-  <!-- Footer -->
-  <text x="400" y="382" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
-    Exclusion and happening are different production modes.
-  </text>
-  <text x="400" y="400" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
-    No accumulation of one produces the other. The wall proves itself.
+  <text x="40" y="1280" font-size="9" fill="#6B6B6B" font-style="italic">
+    fig. 2 — the proof's strength and its cost are the same fact: the wall is real, and the wall cannot be inspected from this side.
   </text>
 </svg>

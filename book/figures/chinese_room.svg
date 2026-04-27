@@ -1,55 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="serif" font-size="14" fill="#1A1A1A">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1300" font-family="serif" fill="#1A1A1A">
   <defs>
-    <pattern id="brick" patternUnits="userSpaceOnUse" width="40" height="20">
-      <rect width="40" height="20" fill="none"/>
-      <path d="M 0 0 L 40 0 M 0 20 L 40 20 M 20 0 L 20 10 M 0 10 L 40 10 M 0 10 L 0 20 M 40 10 L 40 20" stroke="#1A1A1A" stroke-width="0.5" opacity="0.4"/>
+    <pattern id="paperCR" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#FAF8F3"/>
     </pattern>
+    <pattern id="brickCR" patternUnits="userSpaceOnUse" width="44" height="22">
+      <rect width="44" height="22" fill="none"/>
+      <path d="M 0 0 L 44 0 M 0 22 L 44 22 M 22 0 L 22 11 M 0 11 L 44 11 M 0 11 L 0 22 M 44 11 L 44 22"
+            stroke="#1A1A1A" stroke-width="0.5" opacity="0.45"/>
+    </pattern>
+    <pattern id="brickCR2" patternUnits="userSpaceOnUse" width="34" height="17">
+      <rect width="34" height="17" fill="none"/>
+      <path d="M 0 0 L 34 0 M 0 17 L 34 17 M 17 0 L 17 8 M 0 8 L 34 8 M 0 8 L 0 17 M 34 8 L 34 17"
+            stroke="#1A1A1A" stroke-width="0.4" opacity="0.40"/>
+    </pattern>
+    <pattern id="brickCR3" patternUnits="userSpaceOnUse" width="26" height="13">
+      <rect width="26" height="13" fill="none"/>
+      <path d="M 0 0 L 26 0 M 0 13 L 26 13 M 13 0 L 13 6 M 0 6 L 26 6 M 0 6 L 0 13 M 26 6 L 26 13"
+            stroke="#1A1A1A" stroke-width="0.3" opacity="0.35"/>
+    </pattern>
+    <radialGradient id="absentG" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrCR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1A1A1A"/>
+    </marker>
   </defs>
+  <rect width="1100" height="1300" fill="url(#paperCR)"/>
 
-  <text x="400" y="32" text-anchor="middle" font-style="italic" font-size="18">The Chinese Room as Civilization</text>
-  <line x1="290" y1="48" x2="510" y2="48" stroke="#8A8A8A" stroke-width="0.6"/>
+  <text x="550" y="58" text-anchor="middle" font-style="italic" font-size="32">The Chinese Room</text>
+  <text x="550" y="84" text-anchor="middle" font-size="14" fill="#6B6B6B" font-style="italic">three nested rooms · the same missing thing in each</text>
+  <line x1="370" y1="100" x2="730" y2="100" stroke="#8A8A8A" stroke-width="0.7"/>
 
-  <!-- Room -->
-  <rect x="200" y="100" width="400" height="200" fill="url(#brick)" stroke="#1A1A1A" stroke-width="1.4"/>
+  <!-- ============= Outer room: the reader ============= -->
+  <g>
+    <rect x="60" y="150" width="980" height="950" fill="url(#brickCR)" stroke="#1A1A1A" stroke-width="1.4"/>
+    <text x="550" y="180" text-anchor="middle" font-size="13" font-style="italic">Room III  ·  the reader of this book</text>
+    <text x="550" y="196" text-anchor="middle" font-size="10" fill="#6B6B6B">following symbols on a page, producing inner experience — or producing a report of inner experience</text>
 
-  <!-- Slot left -->
-  <rect x="180" y="170" width="40" height="20" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
-  <text x="160" y="184" text-anchor="end" font-size="12" font-style="italic">input</text>
-  <text x="160" y="200" text-anchor="end" font-size="11" fill="#6B6B6B">中文 →</text>
-
-  <!-- Slot right -->
-  <rect x="580" y="210" width="40" height="20" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
-  <text x="640" y="224" font-size="12" font-style="italic">output</text>
-  <text x="640" y="240" font-size="11" fill="#6B6B6B">→ 中文</text>
-
-  <!-- Inside: figure with rulebook -->
-  <g transform="translate(330,210)">
-    <rect width="60" height="80" fill="none" stroke="#1A1A1A" stroke-width="1"/>
-    <text x="30" y="46" text-anchor="middle" font-size="11" font-style="italic">rulebook</text>
-    <text x="30" y="100" text-anchor="middle" font-size="10" fill="#6B6B6B">if X → output Y</text>
-  </g>
-  <g transform="translate(440,200)" stroke="#1A1A1A" stroke-width="1.2" fill="none">
-    <circle cx="0" cy="-14" r="6"/>
-    <line x1="0" y1="-8" x2="0" y2="20"/>
-    <line x1="0" y1="0" x2="-12" y2="6"/>
-    <line x1="0" y1="0" x2="12" y2="6"/>
-    <line x1="0" y1="20" x2="-8" y2="40"/>
-    <line x1="0" y1="20" x2="8" y2="40"/>
-  </g>
-  <text x="440" y="266" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">person who does not understand Chinese</text>
-
-  <!-- The missing thing -->
-  <g transform="translate(400,140)">
-    <text x="0" y="0" text-anchor="middle" font-size="13" fill="#8B0000" font-style="italic">understanding?</text>
-    <text x="0" y="20" text-anchor="middle" font-size="10" fill="#8B0000">— not in the room —</text>
+    <!-- Outer slots -->
+    <rect x="40" y="300" width="40" height="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="34" y="315" text-anchor="end" font-size="11" font-style="italic">page</text>
+    <rect x="1020" y="900" width="40" height="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="1066" y="915" font-size="11" font-style="italic">comprehension?</text>
   </g>
 
-  <!-- Footer -->
-  <text x="400" y="338" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
-    The system produces correct output. Understanding is not present anywhere in it.
-  </text>
-  <text x="400" y="356" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
-    “I am telling you that this room is your civilization.” — Olen, Day Two
-  </text>
+  <!-- ============= Middle room: the civilization ============= -->
+  <g>
+    <rect x="160" y="240" width="780" height="780" fill="url(#brickCR2)" stroke="#1A1A1A" stroke-width="1.2"/>
+    <text x="550" y="266" text-anchor="middle" font-size="13" font-style="italic">Room II  ·  the post-Upload civilization</text>
+    <text x="550" y="282" text-anchor="middle" font-size="10" fill="#6B6B6B">eight hundred billion processors producing correct outputs · indistinguishable from understanding</text>
+
+    <!-- Middle slots -->
+    <rect x="140" y="400" width="40" height="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="134" y="415" text-anchor="end" font-size="11" font-style="italic">stimulus</text>
+    <rect x="920" y="800" width="40" height="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="966" y="815" font-size="11" font-style="italic">policy</text>
+  </g>
+
+  <!-- ============= Inner room: Searle's original ============= -->
+  <g>
+    <rect x="280" y="340" width="540" height="600" fill="url(#brickCR3)" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="550" y="366" text-anchor="middle" font-size="13" font-style="italic">Room I  ·  Searle's room (1980)</text>
+    <text x="550" y="382" text-anchor="middle" font-size="10" fill="#6B6B6B">a person, a rulebook, no Chinese</text>
+
+    <!-- Inner slots -->
+    <rect x="260" y="500" width="40" height="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="254" y="515" text-anchor="end" font-size="11" font-style="italic">中文 →</text>
+    <rect x="800" y="700" width="40" height="22" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="846" y="715" font-size="11" font-style="italic">→ 中文</text>
+
+    <!-- Person inside -->
+    <g transform="translate(420,650)" stroke="#1A1A1A" stroke-width="1.2" fill="none">
+      <circle cx="0" cy="-14" r="6"/>
+      <line x1="0" y1="-8" x2="0" y2="20"/>
+      <line x1="0" y1="0" x2="-12" y2="6"/>
+      <line x1="0" y1="0" x2="12" y2="6"/>
+      <line x1="0" y1="20" x2="-8" y2="40"/>
+      <line x1="0" y1="20" x2="8" y2="40"/>
+    </g>
+    <text x="420" y="710" text-anchor="middle" font-size="9" fill="#6B6B6B" font-style="italic">does not understand Chinese</text>
+
+    <!-- Rulebook -->
+    <g transform="translate(540,610)">
+      <rect width="120" height="160" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+      <text x="60" y="22" text-anchor="middle" font-size="11" font-style="italic">rulebook</text>
+      <line x1="14" y1="34" x2="106" y2="34" stroke="#8A8A8A" stroke-width="0.4"/>
+      <g font-family="monospace" font-size="9" fill="#1A1A1A">
+        <text x="14" y="50">if ⚹ → ⊕</text>
+        <text x="14" y="64">if ⊕ → ◇</text>
+        <text x="14" y="78">if ◇ → ☉</text>
+        <text x="14" y="92">if ☉ → ⚹</text>
+        <text x="14" y="106">if ⌘ → ▣</text>
+        <text x="14" y="120">if ▣ → ⌘</text>
+        <text x="14" y="134">if ☐ → ☐</text>
+        <text x="14" y="148">…</text>
+      </g>
+    </g>
+
+    <!-- The cavity: missing understanding -->
+    <g transform="translate(550,460)">
+      <ellipse cx="0" cy="0" rx="120" ry="40" fill="url(#absentG)"/>
+      <text x="0" y="-2" text-anchor="middle" font-size="14" font-style="italic" fill="#8B0000">understanding?</text>
+      <text x="0" y="18" text-anchor="middle" font-size="10" fill="#8B0000">not in the person · not in the rules · not in the room</text>
+    </g>
+  </g>
+
+  <!-- ============= the three claims ============= -->
+  <g transform="translate(60,1130)">
+    <rect x="0" y="0" width="980" height="160" fill="none" stroke="#1A1A1A" stroke-width="0.8" rx="3"/>
+    <text x="490" y="-8" text-anchor="middle" font-size="13" font-style="italic">the same observation, scaled three times</text>
+
+    <g font-size="11">
+      <text x="20" y="24" font-style="italic" fill="#6B6B6B">scale</text>
+      <text x="240" y="24" font-style="italic" fill="#6B6B6B">the system</text>
+      <text x="540" y="24" font-style="italic" fill="#6B6B6B">the missing thing</text>
+      <text x="760" y="24" font-style="italic" fill="#6B6B6B">how the absence is missed</text>
+      <line x1="20" y1="32" x2="960" y2="32" stroke="#8A8A8A" stroke-width="0.4"/>
+
+      <text x="20" y="52">Room I</text>
+      <text x="240" y="52">a person and a book</text>
+      <text x="540" y="52">understanding of Chinese</text>
+      <text x="760" y="52" fill="#6B6B6B">outputs are perfect</text>
+
+      <text x="20" y="72">Room II</text>
+      <text x="240" y="72">a civilization and its protocols</text>
+      <text x="540" y="72" fill="#8B0000">felt experience</text>
+      <text x="760" y="72" fill="#6B6B6B">policy outcomes are kind</text>
+
+      <text x="20" y="92">Room III</text>
+      <text x="240" y="92">a reader and these pages</text>
+      <text x="540" y="92" fill="#8B0000">— ?  the test is yours —</text>
+      <text x="760" y="92" fill="#6B6B6B">you tell me whether you felt</text>
+
+      <text x="20" y="124" font-style="italic" fill="#6B6B6B">— "I am telling you that this room is your civilization." —</text>
+      <text x="20" y="140" font-size="10" fill="#6B6B6B">Olen, Day Two</text>
+    </g>
+  </g>
 </svg>
