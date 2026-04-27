@@ -22,7 +22,6 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{lettrine}
 \RequirePackage[bottom,hang,flushmargin]{footmisc}
-\RequirePackage{soul}
 \RequirePackage{etoolbox}
 \RequirePackage{enumitem}
 \RequirePackage{calc}
@@ -175,15 +174,17 @@
 }
 
 % A figure helper for diagrams that should sit centered with a small caption
-\newcommand{\corridorfig}[3][0.78\textwidth]{%
+\newcommand{\corridorfig}[3][\textwidth]{%
   \begin{figure}[htbp]\centering
-    \includegraphics[width=#1]{figures/#2}\\[0.5em]
-    {\footnotesize\itshape\color{dim} #3}
+    \includegraphics[width=#1,keepaspectratio]{figures/#2}\\[0.6em]
+    \begin{minipage}{0.92\textwidth}\centering
+      \footnotesize\itshape\color{dim} #3
+    \end{minipage}
   \end{figure}
 }
 
 % Letterspaced small caps for institutional voice (tribunal language)
-\newcommand{\inst}[1]{\textsc{\so{#1}}}
+\newcommand{\inst}[1]{{\addfontfeature{LetterSpace=8.0}\textsc{#1}}}
 
 % Bilinco / framework header decoration (used on title pages only)
 \newcommand{\bilinco}{\footnotesize\color{dim}\textsc{Bilinco \ {\(\cdot\)} \ Philosophical Fiction}}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="serif" font-size="14" fill="#1A1A1A">
+  <defs>
+    <pattern id="formatA" patternUnits="userSpaceOnUse" width="12" height="12">
+      <path d="M 0 6 L 12 6" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
+    </pattern>
+    <pattern id="formatB" patternUnits="userSpaceOnUse" width="12" height="12">
+      <path d="M 6 0 L 6 12" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
+    </pattern>
+    <radialGradient id="residue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <text x="400" y="30" text-anchor="middle" font-style="italic" font-size="18">The Format Mismatch</text>
+  <text x="400" y="50" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">how a gravitational wave opened a corridor at Station Kepler-9</text>
+
+  <!-- Wave path -->
+  <path d="M 30 200 Q 110 140 190 200 T 350 200" fill="none" stroke="#8B0000" stroke-width="1.4"/>
+  <text x="190" y="118" text-anchor="middle" font-size="11" fill="#8B0000" font-style="italic">87 Hz gravitational wave</text>
+  <text x="190" y="240" text-anchor="middle" font-size="10" fill="#6B6B6B">12-millisecond phase-vulnerability window</text>
+
+  <!-- Format A box -->
+  <g transform="translate(380,140)">
+    <rect width="160" height="120" fill="url(#formatA)" stroke="#1A1A1A" stroke-width="1.2"/>
+    <text x="80" y="-8" text-anchor="middle" font-size="12" font-style="italic">encoding format A</text>
+    <text x="80" y="68" text-anchor="middle" font-size="14">— — — —</text>
+    <text x="80" y="86" text-anchor="middle" font-size="14">— — — —</text>
+  </g>
+
+  <!-- Format B box, slightly offset -->
+  <g transform="translate(420,170)">
+    <rect width="160" height="120" fill="url(#formatB)" stroke="#1A1A1A" stroke-width="1.2"/>
+    <text x="80" y="142" text-anchor="middle" font-size="12" font-style="italic">encoding format B</text>
+    <text x="80" y="56" text-anchor="middle" font-size="14">| | | |</text>
+    <text x="80" y="76" text-anchor="middle" font-size="14">| | | |</text>
+  </g>
+
+  <!-- Overlap residue (the corridor) -->
+  <g transform="translate(500,225)">
+    <ellipse cx="0" cy="0" rx="70" ry="36" fill="url(#residue)"/>
+    <text x="0" y="0" text-anchor="middle" font-size="13" fill="#8B0000" font-style="italic" font-weight="bold">RESIDUE</text>
+    <text x="0" y="20" text-anchor="middle" font-size="11" fill="#8B0000">the corridor</text>
+  </g>
+
+  <!-- Right-side annotations -->
+  <g transform="translate(620,170)" font-size="11" fill="#6B6B6B">
+    <text x="0" y="0">irresolvable</text>
+    <text x="0" y="16">overlap of</text>
+    <text x="0" y="32">two transfer</text>
+    <text x="0" y="48">protocols.</text>
+    <text x="0" y="80" font-style="italic">structurally:</text>
+    <text x="0" y="96" font-style="italic">a data anomaly.</text>
+    <text x="0" y="116" font-style="italic">felt:</text>
+    <text x="0" y="132" font-style="italic">a channel.</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="380" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
+    The two formats could not fully resolve each other. The unresolved residue
+  </text>
+  <text x="400" y="398" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
+    became the channel through which felt experience entered Sera's architecture.
+  </text>
+</svg>

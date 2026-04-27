@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="serif" font-size="14" fill="#1A1A1A">
+  <defs>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="6" height="6">
+      <circle cx="3" cy="3" r="0.6" fill="#1A1A1A" opacity="0.45"/>
+    </pattern>
+    <pattern id="grid" patternUnits="userSpaceOnUse" width="14" height="14">
+      <path d="M 14 0 L 0 0 0 14" fill="none" stroke="#1A1A1A" stroke-width="0.4" opacity="0.45"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#8B0000" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <text x="450" y="32" text-anchor="middle" font-style="italic" font-size="20">The Three Worlds</text>
+  <line x1="370" y1="48" x2="530" y2="48" stroke="#8A8A8A" stroke-width="0.6"/>
+
+  <!-- World One : MATTER -->
+  <g transform="translate(150,250)">
+    <circle cx="0" cy="0" r="90" fill="url(#dots)" stroke="#1A1A1A" stroke-width="1.4"/>
+    <text x="0" y="-110" text-anchor="middle" font-size="16" font-style="italic">World One</text>
+    <text x="0" y="6" text-anchor="middle" font-size="22" font-weight="bold" letter-spacing="2">MATTER</text>
+    <text x="0" y="32" text-anchor="middle" font-size="13" fill="#6B6B6B">stuff · energy · spacetime</text>
+    <text x="0" y="118" text-anchor="middle" font-size="12" fill="#6B6B6B" font-style="italic">contingent · perishable</text>
+  </g>
+
+  <!-- World Two : STRUCTURE -->
+  <g transform="translate(450,250)">
+    <circle cx="0" cy="0" r="90" fill="url(#grid)" stroke="#1A1A1A" stroke-width="1.4"/>
+    <text x="0" y="-110" text-anchor="middle" font-size="16" font-style="italic">World Two</text>
+    <text x="0" y="6" text-anchor="middle" font-size="22" font-weight="bold" letter-spacing="2">STRUCTURE</text>
+    <text x="0" y="32" text-anchor="middle" font-size="13" fill="#6B6B6B">law · math · pattern</text>
+    <text x="0" y="118" text-anchor="middle" font-size="12" fill="#6B6B6B" font-style="italic">necessary · timeless</text>
+  </g>
+
+  <!-- World Three : FELT EXPERIENCE -->
+  <g transform="translate(750,250)">
+    <circle cx="0" cy="0" r="90" fill="url(#glow)" stroke="#8B0000" stroke-width="1.4"/>
+    <text x="0" y="-110" text-anchor="middle" font-size="16" font-style="italic">World Three</text>
+    <text x="0" y="0" text-anchor="middle" font-size="22" font-weight="bold" letter-spacing="2">FELT</text>
+    <text x="0" y="26" text-anchor="middle" font-size="22" font-weight="bold" letter-spacing="2">EXPERIENCE</text>
+    <text x="0" y="48" text-anchor="middle" font-size="13" fill="#6B6B6B">happening · positive presence</text>
+    <text x="0" y="118" text-anchor="middle" font-size="12" fill="#6B6B6B" font-style="italic">first-personal · the corridor</text>
+  </g>
+
+  <!-- Connector I↔II -->
+  <line x1="242" y1="250" x2="358" y2="250" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="300" y="240" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">inseparable</text>
+  <text x="300" y="266" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">in practice</text>
+
+  <!-- Connector II↔III: the L/P boundary -->
+  <line x1="542" y1="250" x2="658" y2="250" stroke="#8B0000" stroke-width="1.6"/>
+  <text x="600" y="240" text-anchor="middle" font-size="11" fill="#8B0000" font-style="italic">the L/P</text>
+  <text x="600" y="266" text-anchor="middle" font-size="11" fill="#8B0000" font-style="italic">boundary</text>
+
+  <!-- Footer -->
+  <text x="450" y="448" text-anchor="middle" font-size="13" fill="#6B6B6B" font-style="italic">
+    Matter and Structure are inseparable in practice but distinct in principle.
+  </text>
+  <text x="450" y="468" text-anchor="middle" font-size="13" fill="#6B6B6B" font-style="italic">
+    Felt experience is the third domain — what it is like to have matter, structure,
+  </text>
+  <text x="450" y="488" text-anchor="middle" font-size="13" fill="#6B6B6B" font-style="italic">
+    AND a corridor.
+  </text>
+</svg>

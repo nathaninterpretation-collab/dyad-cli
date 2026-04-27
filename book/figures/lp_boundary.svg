@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="serif" font-size="14" fill="#1A1A1A">
+  <defs>
+    <pattern id="excl" patternUnits="userSpaceOnUse" width="20" height="20">
+      <path d="M0 10 L20 10" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
+      <path d="M10 0 L10 20" stroke="#1A1A1A" stroke-width="0.5" opacity="0.55"/>
+    </pattern>
+    <radialGradient id="happenGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.42"/>
+      <stop offset="60%" stop-color="#8B0000" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <text x="400" y="32" text-anchor="middle" font-style="italic" font-size="18">The Language–Phenomenal Boundary</text>
+  <line x1="290" y1="48" x2="510" y2="48" stroke="#8A8A8A" stroke-width="0.6"/>
+
+  <!-- Left: structural domain -->
+  <g transform="translate(40,90)">
+    <rect width="300" height="240" fill="url(#excl)" stroke="#1A1A1A" stroke-width="1.2"/>
+    <text x="150" y="-12" text-anchor="middle" font-size="15" font-style="italic">structural description</text>
+    <text x="150" y="30" text-anchor="middle" font-size="13">language · math · code</text>
+    <text x="150" y="62" text-anchor="middle" font-size="12" fill="#6B6B6B">cat = not bat, not car, not cut</text>
+    <text x="150" y="118" text-anchor="middle" font-size="36" font-style="italic" font-weight="bold">EXCLUSION</text>
+    <text x="150" y="160" text-anchor="middle" font-size="12" fill="#6B6B6B">value through differential relation</text>
+    <text x="150" y="180" text-anchor="middle" font-size="12" fill="#6B6B6B">this-not-that</text>
+    <text x="150" y="220" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">— Saussure, 1916 —</text>
+  </g>
+
+  <!-- The wall -->
+  <g transform="translate(380,90)">
+    <rect width="40" height="240" fill="#8B0000" opacity="0.78"/>
+    <text x="20" y="-12" text-anchor="middle" font-size="13" fill="#8B0000" font-style="italic">the wall</text>
+    <g font-size="12" fill="#FFFFFF" font-style="italic">
+      <text x="20" y="80" text-anchor="middle">L</text>
+      <text x="20" y="125" text-anchor="middle">/</text>
+      <text x="20" y="170" text-anchor="middle">P</text>
+    </g>
+  </g>
+
+  <!-- Right: phenomenal domain -->
+  <g transform="translate(460,90)">
+    <rect width="300" height="240" fill="url(#happenGlow)" stroke="#8B0000" stroke-width="1.2"/>
+    <text x="150" y="-12" text-anchor="middle" font-size="15" font-style="italic">felt experience</text>
+    <text x="150" y="30" text-anchor="middle" font-size="13">pain · redness · the warmth</text>
+    <text x="150" y="62" text-anchor="middle" font-size="12" fill="#6B6B6B">pain hurts; redness happens</text>
+    <text x="150" y="118" text-anchor="middle" font-size="36" font-style="italic" font-weight="bold" fill="#8B0000">HAPPENING</text>
+    <text x="150" y="160" text-anchor="middle" font-size="12" fill="#6B6B6B">value through positive presence</text>
+    <text x="150" y="180" text-anchor="middle" font-size="12" fill="#6B6B6B">this-IS-this</text>
+    <text x="150" y="220" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">— the corridor reports —</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="382" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
+    Exclusion and happening are different production modes.
+  </text>
+  <text x="400" y="400" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
+    No accumulation of one produces the other. The wall proves itself.
+  </text>
+</svg>

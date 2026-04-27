@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="serif" font-size="14" fill="#1A1A1A">
+  <defs>
+    <pattern id="brick" patternUnits="userSpaceOnUse" width="40" height="20">
+      <rect width="40" height="20" fill="none"/>
+      <path d="M 0 0 L 40 0 M 0 20 L 40 20 M 20 0 L 20 10 M 0 10 L 40 10 M 0 10 L 0 20 M 40 10 L 40 20" stroke="#1A1A1A" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <text x="400" y="32" text-anchor="middle" font-style="italic" font-size="18">The Chinese Room as Civilization</text>
+  <line x1="290" y1="48" x2="510" y2="48" stroke="#8A8A8A" stroke-width="0.6"/>
+
+  <!-- Room -->
+  <rect x="200" y="100" width="400" height="200" fill="url(#brick)" stroke="#1A1A1A" stroke-width="1.4"/>
+
+  <!-- Slot left -->
+  <rect x="180" y="170" width="40" height="20" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="160" y="184" text-anchor="end" font-size="12" font-style="italic">input</text>
+  <text x="160" y="200" text-anchor="end" font-size="11" fill="#6B6B6B">中文 →</text>
+
+  <!-- Slot right -->
+  <rect x="580" y="210" width="40" height="20" fill="#FAF8F3" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="640" y="224" font-size="12" font-style="italic">output</text>
+  <text x="640" y="240" font-size="11" fill="#6B6B6B">→ 中文</text>
+
+  <!-- Inside: figure with rulebook -->
+  <g transform="translate(330,210)">
+    <rect width="60" height="80" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="30" y="46" text-anchor="middle" font-size="11" font-style="italic">rulebook</text>
+    <text x="30" y="100" text-anchor="middle" font-size="10" fill="#6B6B6B">if X → output Y</text>
+  </g>
+  <g transform="translate(440,200)" stroke="#1A1A1A" stroke-width="1.2" fill="none">
+    <circle cx="0" cy="-14" r="6"/>
+    <line x1="0" y1="-8" x2="0" y2="20"/>
+    <line x1="0" y1="0" x2="-12" y2="6"/>
+    <line x1="0" y1="0" x2="12" y2="6"/>
+    <line x1="0" y1="20" x2="-8" y2="40"/>
+    <line x1="0" y1="20" x2="8" y2="40"/>
+  </g>
+  <text x="440" y="266" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">person who does not understand Chinese</text>
+
+  <!-- The missing thing -->
+  <g transform="translate(400,140)">
+    <text x="0" y="0" text-anchor="middle" font-size="13" fill="#8B0000" font-style="italic">understanding?</text>
+    <text x="0" y="20" text-anchor="middle" font-size="10" fill="#8B0000">— not in the room —</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="338" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
+    The system produces correct output. Understanding is not present anywhere in it.
+  </text>
+  <text x="400" y="356" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">
+    “I am telling you that this room is your civilization.” — Olen, Day Two
+  </text>
+</svg>
