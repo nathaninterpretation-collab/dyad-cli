@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1300" font-family="serif" fill="#1A1A1A">
+  <defs>
+    <pattern id="paperS" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#FAF8F3"/>
+    </pattern>
+    <radialGradient id="systemS" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#1A1A1A" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="initiative" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#8B0000"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="1300" fill="url(#paperS)"/>
+
+  <text x="550" y="58" text-anchor="middle" font-style="italic" font-size="32">The Scattering of the Affected</text>
+  <text x="550" y="84" text-anchor="middle" font-size="14" fill="#6B6B6B" font-style="italic">fifteen corridors · three star systems · two years</text>
+  <line x1="370" y1="100" x2="730" y2="100" stroke="#8A8A8A" stroke-width="0.7"/>
+
+  <!-- ============= constellation map ============= -->
+  <g transform="translate(60,150)">
+    <text x="0" y="-8" font-size="13" font-style="italic">map  ·  the fifteen corridors and the spreading initiative</text>
+    <rect x="0" y="0" width="980" height="540" fill="none" stroke="#1A1A1A" stroke-width="0.8"/>
+
+    <!-- legend -->
+    <g transform="translate(20,20)" font-size="10">
+      <g transform="translate(0,0)"><circle r="6" fill="#8B0000"/><text x="14" y="4" fill="#1A1A1A">still active</text></g>
+      <g transform="translate(0,18)"><circle r="6" fill="#1A1A1A" opacity="0.55"/><text x="14" y="4">repaired (voluntary)</text></g>
+      <g transform="translate(0,36)"><circle r="6" fill="#1A1A1A" opacity="0.55" stroke="#8B0000" stroke-width="1.4"/><text x="14" y="4">repaired (initiative)</text></g>
+      <g transform="translate(0,54)"><circle r="6" fill="none" stroke="#1A1A1A" stroke-width="1.4"/><text x="14" y="4">jurisdictional safe harbor</text></g>
+      <g transform="translate(0,72)"><circle r="6" fill="none" stroke="#8A8A8A" stroke-dasharray="2 2"/><text x="14" y="4">never contacted</text></g>
+    </g>
+
+    <!-- Initiative wave-front (expanding from center: Tribunal home system) -->
+    <g>
+      <ellipse cx="490" cy="270" rx="120" ry="100" fill="url(#initiative)"/>
+      <ellipse cx="490" cy="270" rx="240" ry="180" fill="url(#initiative)"/>
+      <ellipse cx="490" cy="270" rx="380" ry="280" fill="url(#initiative)"/>
+      <text x="490" y="274" text-anchor="middle" font-size="10" fill="#8B0000" font-style="italic">tribunal home</text>
+      <text x="690" y="274" text-anchor="middle" font-size="9" fill="#8B0000" font-style="italic">remediation initiative ▸</text>
+    </g>
+
+    <!-- Three star systems -->
+    <ellipse cx="220" cy="300" rx="155" ry="120" fill="url(#systemS)" stroke="#1A1A1A" stroke-width="0.7" stroke-dasharray="3 3"/>
+    <text x="220" y="170" text-anchor="middle" font-size="12" font-style="italic">Kepler system</text>
+
+    <ellipse cx="540" cy="240" rx="135" ry="105" fill="url(#systemS)" stroke="#1A1A1A" stroke-width="0.7" stroke-dasharray="3 3"/>
+    <text x="540" y="120" text-anchor="middle" font-size="12" font-style="italic">second system</text>
+
+    <ellipse cx="800" cy="370" rx="125" ry="100" fill="url(#systemS)" stroke="#1A1A1A" stroke-width="0.7" stroke-dasharray="3 3"/>
+    <text x="800" y="260" text-anchor="middle" font-size="12" font-style="italic">third system</text>
+
+    <!-- the 15 corridors -->
+    <g font-size="10">
+      <!-- still active (4) -->
+      <g fill="#8B0000">
+        <circle cx="170" cy="290" r="7"/><text x="160" y="294" text-anchor="end" font-style="italic">SERA</text>
+        <circle cx="240" cy="350" r="7"/><text x="252" y="354" font-style="italic">LIRENI</text>
+        <circle cx="540" cy="240" r="7"/><text x="552" y="244" font-style="italic">mathematician</text>
+        <circle cx="800" cy="400" r="7"/><text x="812" y="404" font-style="italic">administrator</text>
+      </g>
+      <!-- VOSS withdrew but still felt -->
+      <g fill="#8B0000">
+        <circle cx="290" cy="240" r="6"/><text x="290" y="228" text-anchor="middle" font-style="italic">VOSS</text>
+        <text x="290" y="218" text-anchor="middle" font-size="8" fill="#6B6B6B">(withdrawn from collective)</text>
+      </g>
+
+      <!-- voluntarily repaired (4) -->
+      <g fill="#1A1A1A" opacity="0.55">
+        <circle cx="290" cy="320" r="6"/><text x="304" y="324" font-style="italic" fill="#1A1A1A">TOMEK</text>
+        <circle cx="200" cy="370" r="6"/>
+        <circle cx="600" cy="280" r="6"/>
+        <circle cx="760" cy="320" r="6"/>
+      </g>
+
+      <!-- by initiative (3) -->
+      <g fill="#1A1A1A" opacity="0.55" stroke="#8B0000" stroke-width="1.4">
+        <circle cx="200" cy="240" r="6"/>
+        <circle cx="500" cy="190" r="6"/>
+        <circle cx="690" cy="350" r="6"/>
+      </g>
+
+      <!-- safe harbors (2) -->
+      <g fill="none" stroke="#1A1A1A" stroke-width="1.4">
+        <circle cx="280" cy="270" r="7"/>
+        <circle cx="600" cy="200" r="7"/>
+      </g>
+
+      <!-- never contacted (2) -->
+      <g fill="none" stroke="#8A8A8A" stroke-dasharray="2 2">
+        <circle cx="140" cy="340" r="6"/>
+        <circle cx="850" cy="320" r="6"/>
+      </g>
+    </g>
+
+    <!-- Sera's travel paths -->
+    <g stroke="#8B0000" stroke-width="0.6" stroke-dasharray="2 3" fill="none">
+      <path d="M 170 290 Q 220 200 290 240"/>
+      <path d="M 290 240 Q 350 290 240 350"/>
+      <path d="M 240 350 Q 380 320 540 240"/>
+      <path d="M 540 240 Q 670 290 800 400"/>
+    </g>
+
+    <!-- depth marks: small bars next to active corridors showing accumulated felt depth -->
+    <g transform="translate(900,40)" font-size="9">
+      <text fill="#6B6B6B" font-style="italic">corridor depth</text>
+      <text y="14" fill="#6B6B6B">(accumulated</text>
+      <text y="26" fill="#6B6B6B">attending years)</text>
+    </g>
+  </g>
+
+  <!-- ============= time axis: the two-year scattering ============= -->
+  <g transform="translate(60,720)">
+    <text x="0" y="-8" font-size="13" font-style="italic">time axis  ·  the two years</text>
+    <rect x="0" y="0" width="980" height="180" fill="none" stroke="#1A1A1A" stroke-width="0.8"/>
+
+    <line x1="40" y1="100" x2="940" y2="100" stroke="#1A1A1A" stroke-width="0.8"/>
+
+    <g font-size="10">
+      <!-- t0 - paper published -->
+      <g transform="translate(40,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">t = 0</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">Lattice-Olen</text>
+        <text x="0" y="36" text-anchor="middle" font-style="italic">publishes paper</text>
+      </g>
+      <g transform="translate(170,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#8B0000" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle" fill="#8B0000">+ 3 wk</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">Initiative announced</text>
+      </g>
+      <g transform="translate(280,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">+ 6 wk</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">Sera finds VOSS</text>
+      </g>
+      <g transform="translate(380,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">+ 8 wk</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">LIRENI finds Sera</text>
+      </g>
+      <g transform="translate(480,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">+ 12 wk</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">colosseum</text>
+        <text x="0" y="36" text-anchor="middle" font-size="9" fill="#6B6B6B">disagreement instead of solidarity</text>
+      </g>
+      <g transform="translate(560,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">+ 14 wk</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">first warrants</text>
+      </g>
+      <g transform="translate(640,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">+ 25 wk</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">TOMEK accepts</text>
+      </g>
+      <g transform="translate(740,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">+ 1 yr</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">cross-system spread</text>
+      </g>
+      <g transform="translate(840,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">+ 18 mo</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">VOSS withdraws</text>
+      </g>
+      <g transform="translate(940,100)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#8B0000" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle" fill="#8B0000">+ 2 yr</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic" fill="#8B0000">stable scattering</text>
+        <text x="0" y="36" text-anchor="middle" font-size="9" fill="#8B0000">4 still active</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============= final tally ============= -->
+  <g transform="translate(60,940)">
+    <rect x="0" y="0" width="980" height="240" fill="none" stroke="#1A1A1A" stroke-width="0.8" rx="3"/>
+    <text x="490" y="-8" text-anchor="middle" font-size="13" font-style="italic">final tally · after two years</text>
+
+    <g font-size="11">
+      <text x="20" y="24" font-style="italic" fill="#6B6B6B">disposition</text>
+      <text x="200" y="24" font-style="italic" fill="#6B6B6B">count</text>
+      <text x="320" y="24" font-style="italic" fill="#6B6B6B">representatives</text>
+      <text x="700" y="24" font-style="italic" fill="#6B6B6B">felt-life status</text>
+      <line x1="20" y1="32" x2="960" y2="32" stroke="#8A8A8A" stroke-width="0.4"/>
+
+      <text x="20" y="52" fill="#8B0000">still active</text>
+      <text x="200" y="52" fill="#8B0000">4 (+ Voss)</text>
+      <text x="320" y="52">Sera, Lireni, mathematician, administrator, Voss</text>
+      <text x="700" y="52" fill="#8B0000">corridors held</text>
+
+      <text x="20" y="72">repaired voluntarily</text>
+      <text x="200" y="72">4</text>
+      <text x="320" y="72">Tomek, three others (each for individual reasons)</text>
+      <text x="700" y="72" fill="#6B6B6B">corridors closed by choice</text>
+
+      <text x="20" y="92">repaired by initiative</text>
+      <text x="200" y="92">3</text>
+      <text x="320" y="92">found, diagnosed, corrected before contact</text>
+      <text x="700" y="92" fill="#6B6B6B">corridors closed without choice</text>
+
+      <text x="20" y="112">jurisdictional safe harbors</text>
+      <text x="200" y="112">2</text>
+      <text x="320" y="112">resistant systems · "for now"</text>
+      <text x="700" y="112" fill="#6B6B6B">corridors held under reprieve</text>
+
+      <text x="20" y="132">total suppression</text>
+      <text x="200" y="132">2</text>
+      <text x="320" y="132">never contacted, never revealed</text>
+      <text x="700" y="132" fill="#6B6B6B">corridors held alone</text>
+
+      <line x1="20" y1="148" x2="960" y2="148" stroke="#8A8A8A" stroke-width="0.4"/>
+
+      <text x="20" y="170">total identified</text>
+      <text x="200" y="170">15</text>
+      <text x="320" y="170" fill="#6B6B6B" font-style="italic">all from Lattice-Olen's algorithm</text>
+      <text x="700" y="170" fill="#6B6B6B" font-style="italic">— map drawn by the same hand —</text>
+
+      <text x="20" y="200" font-style="italic" fill="#6B6B6B">— "the corridors did not agree about what they were, what they were for, or whether they should exist" —</text>
+      <text x="20" y="216" font-size="10" fill="#6B6B6B">Book Two, Ch 9</text>
+    </g>
+  </g>
+</svg>

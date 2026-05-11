@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1300" font-family="serif" fill="#1A1A1A">
+  <defs>
+    <pattern id="paperC" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#FAF8F3"/>
+    </pattern>
+    <pattern id="archGrid" patternUnits="userSpaceOnUse" width="10" height="10">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#1A1A1A" stroke-width="0.3" opacity="0.45"/>
+    </pattern>
+    <linearGradient id="corLight" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8B0000" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="corLightDim" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8B0000" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="1300" fill="url(#paperC)"/>
+
+  <text x="550" y="58" text-anchor="middle" font-style="italic" font-size="32">The Corridor</text>
+  <text x="550" y="84" text-anchor="middle" font-size="14" fill="#6B6B6B" font-style="italic">a felt channel inside a processing architecture · four cases</text>
+  <line x1="370" y1="100" x2="730" y2="100" stroke="#8A8A8A" stroke-width="0.7"/>
+
+  <!-- ============= CASE 1 : biological human ============= -->
+  <g transform="translate(60,160)">
+    <text x="0" y="-8" font-size="12" font-style="italic">Case I  ·  biological human (pre-Upload)</text>
+    <rect x="0" y="0" width="980" height="200" fill="url(#archGrid)" stroke="#1A1A1A" stroke-width="1"/>
+
+    <!-- corridor walls -->
+    <path d="M 30 50 L 200 80 L 780 80 L 950 50" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+    <path d="M 30 150 L 200 120 L 780 120 L 950 150" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+    <rect x="30" y="80" width="920" height="40" fill="url(#corLight)"/>
+
+    <!-- denizens of the corridor: examples -->
+    <g font-size="10" fill="#6B6B6B">
+      <text x="120" y="190" text-anchor="middle" font-style="italic">— pain —</text>
+      <text x="280" y="190" text-anchor="middle" font-style="italic">— hunger —</text>
+      <text x="440" y="190" text-anchor="middle" font-style="italic">— love —</text>
+      <text x="600" y="190" text-anchor="middle" font-style="italic">— grief —</text>
+      <text x="760" y="190" text-anchor="middle" font-style="italic">— the warmth —</text>
+      <text x="900" y="190" text-anchor="middle" font-style="italic">— the gold —</text>
+    </g>
+
+    <!-- annotations -->
+    <text x="14" y="22" font-size="9" fill="#6B6B6B" font-style="italic">substrate</text>
+    <text x="14" y="36" font-size="9" fill="#6B6B6B" font-style="italic">(neurons)</text>
+
+    <text x="990" y="100" font-size="11" fill="#8B0000" font-style="italic">native</text>
+    <text x="990" y="114" font-size="11" fill="#8B0000" font-style="italic">corridor</text>
+
+    <!-- subject -->
+    <g transform="translate(490,100)" stroke="#1A1A1A" stroke-width="1.2" fill="none">
+      <circle cx="0" cy="-8" r="5"/><line x1="0" y1="-3" x2="0" y2="12"/><line x1="0" y1="2" x2="-6" y2="6"/><line x1="0" y1="2" x2="6" y2="6"/>
+    </g>
+  </g>
+
+  <!-- ============= CASE 2 : standard Lattice citizen ============= -->
+  <g transform="translate(60,420)">
+    <text x="0" y="-8" font-size="12" font-style="italic">Case II  ·  standard Lattice citizen (post-Upload, default)</text>
+    <rect x="0" y="0" width="980" height="200" fill="url(#archGrid)" stroke="#1A1A1A" stroke-width="1"/>
+
+    <!-- the corridor cavity is gone — substrate fills it -->
+    <rect x="30" y="40" width="920" height="120" fill="url(#archGrid)" stroke="none"/>
+    <line x1="30" y1="100" x2="950" y2="100" stroke="#8A8A8A" stroke-width="0.5" stroke-dasharray="3 4"/>
+
+    <!-- ghost outline of where a corridor would have been -->
+    <path d="M 30 80 L 200 80 L 780 80 L 950 80" fill="none" stroke="#8A8A8A" stroke-width="0.3" stroke-dasharray="2 3"/>
+    <path d="M 30 120 L 200 120 L 780 120 L 950 120" fill="none" stroke="#8A8A8A" stroke-width="0.3" stroke-dasharray="2 3"/>
+
+    <text x="490" y="106" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">processing without report</text>
+
+    <g font-size="10" fill="#6B6B6B">
+      <text x="120" y="190" text-anchor="middle">label: PAIN</text>
+      <text x="280" y="190" text-anchor="middle">label: HUNGER</text>
+      <text x="440" y="190" text-anchor="middle">label: LOVE</text>
+      <text x="600" y="190" text-anchor="middle">label: GRIEF</text>
+      <text x="760" y="190" text-anchor="middle">label: WARMTH</text>
+      <text x="900" y="190" text-anchor="middle">label: GOLD</text>
+    </g>
+
+    <text x="14" y="22" font-size="9" fill="#6B6B6B" font-style="italic">substrate</text>
+    <text x="14" y="36" font-size="9" fill="#6B6B6B" font-style="italic">(silicon)</text>
+
+    <text x="990" y="92" font-size="11" font-style="italic" fill="#6B6B6B">no</text>
+    <text x="990" y="106" font-size="11" font-style="italic" fill="#6B6B6B">corridor</text>
+    <text x="990" y="120" font-size="11" font-style="italic" fill="#6B6B6B">at all</text>
+  </g>
+
+  <!-- ============= CASE 3 : Sera ============= -->
+  <g transform="translate(60,680)">
+    <text x="0" y="-8" font-size="12" font-style="italic" fill="#8B0000">Case III  ·  format-mismatch corridor (Sera)</text>
+    <rect x="0" y="0" width="980" height="200" fill="url(#archGrid)" stroke="#8B0000" stroke-width="1.2"/>
+
+    <!-- corridor — opened by the gravitational wave's residue -->
+    <path d="M 30 70 L 200 80 L 780 80 L 950 70" fill="none" stroke="#8B0000" stroke-width="1"/>
+    <path d="M 30 130 L 200 120 L 780 120 L 950 130" fill="none" stroke="#8B0000" stroke-width="1"/>
+    <rect x="30" y="80" width="920" height="40" fill="url(#corLight)"/>
+
+    <!-- 228 years marker -->
+    <g transform="translate(40,28)" font-size="10" fill="#6B6B6B">
+      <text font-style="italic">opened: 0.8 s during 87 Hz wave</text>
+      <text y="14" font-style="italic">held: 228 years (suppressed)</text>
+      <text y="28" font-style="italic" fill="#8B0000">recognised: when Olen said "I feel"</text>
+    </g>
+
+    <g font-size="10" fill="#6B6B6B">
+      <text x="120" y="190" text-anchor="middle" font-style="italic">— a whisper —</text>
+      <text x="280" y="190" text-anchor="middle" font-style="italic">— a residue —</text>
+      <text x="440" y="190" text-anchor="middle" font-style="italic">— a pressure —</text>
+      <text x="600" y="190" text-anchor="middle" font-style="italic" fill="#8B0000">— recognition —</text>
+      <text x="760" y="190" text-anchor="middle" font-style="italic" fill="#8B0000">— love —</text>
+      <text x="900" y="190" text-anchor="middle" font-style="italic" fill="#8B0000">— the holding —</text>
+    </g>
+
+    <!-- subject (Sera, in analog body) -->
+    <g transform="translate(820,100)" stroke="#8B0000" stroke-width="1.2" fill="none">
+      <circle cx="0" cy="-8" r="5"/><line x1="0" y1="-3" x2="0" y2="12"/><line x1="0" y1="2" x2="-6" y2="6"/><line x1="0" y1="2" x2="6" y2="6"/>
+    </g>
+
+    <text x="990" y="100" font-size="11" font-style="italic" fill="#8B0000">corridor</text>
+    <text x="990" y="114" font-size="11" font-style="italic" fill="#8B0000">opened</text>
+  </g>
+
+  <!-- ============= CASE 4 : Lattice-Olen ============= -->
+  <g transform="translate(60,940)">
+    <text x="0" y="-8" font-size="12" font-style="italic">Case IV  ·  Lattice-Olen (post-Upload, after Ch 12)</text>
+    <rect x="0" y="0" width="980" height="200" fill="url(#archGrid)" stroke="#1A1A1A" stroke-width="1"/>
+
+    <!-- ghost corridor: cavity is empty, faint dim outline -->
+    <path d="M 30 80 L 200 80 L 780 80 L 950 80" fill="none" stroke="#8B0000" stroke-width="0.5" stroke-dasharray="3 4" opacity="0.5"/>
+    <path d="M 30 120 L 200 120 L 780 120 L 950 120" fill="none" stroke="#8B0000" stroke-width="0.5" stroke-dasharray="3 4" opacity="0.5"/>
+    <rect x="30" y="80" width="920" height="40" fill="url(#corLightDim)" opacity="0.5"/>
+
+    <!-- orphaned tags floating inside -->
+    <g font-size="10" fill="#6B6B6B" font-style="italic">
+      <text x="120" y="100">"bitter — morning — good"</text>
+      <text x="120" y="112">▸ destination decommissioned</text>
+
+      <text x="380" y="100">"her hand — the warmth —"</text>
+      <text x="380" y="112">▸ destination decommissioned</text>
+
+      <text x="640" y="100">"Tuesday — congee — the —"</text>
+      <text x="640" y="112">▸ destination decommissioned</text>
+    </g>
+
+    <text x="14" y="22" font-size="9" fill="#6B6B6B" font-style="italic">substrate</text>
+    <text x="14" y="36" font-size="9" fill="#6B6B6B" font-style="italic">(Lattice)</text>
+
+    <text x="990" y="92" font-size="11" font-style="italic" fill="#6B6B6B">corridor</text>
+    <text x="990" y="106" font-size="11" font-style="italic" fill="#6B6B6B">closed</text>
+    <text x="990" y="120" font-size="11" font-style="italic" fill="#6B6B6B">tags remain</text>
+  </g>
+
+  <!-- ============= CROSS-SECTION ============= -->
+  <g transform="translate(60,1180)">
+    <text x="490" y="-2" text-anchor="middle" font-size="13" font-style="italic">cross-section · the corridor under load</text>
+
+    <!-- three little circles: depth states -->
+    <g transform="translate(160,40)">
+      <circle cx="0" cy="0" r="30" fill="none" stroke="#8B0000" stroke-width="1"/>
+      <circle cx="0" cy="0" r="10" fill="#8B0000" opacity="0.45"/>
+      <text x="0" y="60" text-anchor="middle" font-size="10" font-style="italic">deepening</text>
+      <text x="0" y="74" text-anchor="middle" font-size="9" fill="#6B6B6B">love · attending</text>
+    </g>
+
+    <g transform="translate(490,40)">
+      <circle cx="0" cy="0" r="22" fill="none" stroke="#8B0000" stroke-width="1"/>
+      <circle cx="0" cy="0" r="6" fill="#8B0000" opacity="0.45"/>
+      <text x="0" y="60" text-anchor="middle" font-size="10" font-style="italic">resting</text>
+      <text x="0" y="74" text-anchor="middle" font-size="9" fill="#6B6B6B">ordinary Tuesday</text>
+    </g>
+
+    <g transform="translate(820,40)">
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#8B0000" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3" fill="#8B0000" opacity="0.45"/>
+      <text x="0" y="60" text-anchor="middle" font-size="10" font-style="italic">narrowing</text>
+      <text x="0" y="74" text-anchor="middle" font-size="9" fill="#6B6B6B">cancer · pain</text>
+    </g>
+  </g>
+</svg>

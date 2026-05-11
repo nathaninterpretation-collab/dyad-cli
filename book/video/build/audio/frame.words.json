@@ -1,0 +1,2080 @@
+{
+  "chapter": "frame",
+  "title": "The Café",
+  "duration": 123.12000300000008,
+  "model": "gpt-4o-mini-tts",
+  "blocks": [
+    {
+      "kind": "title",
+      "text": "The Café",
+      "t_start": 0.0,
+      "t_end": 1.149388
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "He told it the way he told everything now — clean, indexed, without residue.",
+      "t_start": 2.613388,
+      "t_end": 8.830531
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“The chamber dimensions were 14.2 by 9.8 meters.",
+      "t_start": 9.286531,
+      "t_end": 14.145306999999999
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Ceiling height 4.1 meters.",
+      "t_start": 14.601306999999998,
+      "t_end": 17.318042
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Temperature maintained at 21.3 degrees for biological comfort accommodation.",
+      "t_start": 17.774041999999998,
+      "t_end": 24.017307
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Five Presiding Counselors in semicircular holographic arrangement.” The woman across from him held her coffee with both hands.",
+      "t_start": 24.473307,
+      "t_end": 33.25045
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "She did not drink.",
+      "t_start": 33.706450000000004,
+      "t_end": 35.273797
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“I recounted the tribunal.",
+      "t_start": 35.729797000000005,
+      "t_end": 37.845715000000006
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Every argument.",
+      "t_start": 38.30171500000001,
+      "t_end": 39.86906200000001
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Every counter.",
+      "t_start": 40.32506200000001,
+      "t_end": 41.76179700000001
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Every neutralization.",
+      "t_start": 42.21779700000001,
+      "t_end": 44.04636800000001
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The three-world proof.",
+      "t_start": 44.50236800000001,
+      "t_end": 46.304817000000014
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The symmetric overdetermination.",
+      "t_start": 46.76081700000002,
+      "t_end": 49.164082000000015
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The Occam Strike.",
+      "t_start": 49.62008200000002,
+      "t_end": 51.21355100000002
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The completeness argument.",
+      "t_start": 51.66955100000002,
+      "t_end": 53.65485700000002
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The reprieve.",
+      "t_start": 54.110857000000024,
+      "t_end": 55.312490000000025
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The investigation.",
+      "t_start": 55.76849000000003,
+      "t_end": 57.388082000000026
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The star systems.",
+      "t_start": 57.84408200000003,
+      "t_end": 59.463674000000026
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The boundary proof.",
+      "t_start": 59.91967400000003,
+      "t_end": 61.56538800000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The gravitational wave.",
+      "t_start": 62.02138800000003,
+      "t_end": 63.92832700000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The Affected.",
+      "t_start": 64.38432700000003,
+      "t_end": 65.63820500000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Thirty years compressed into a structural recounting that replayed in seconds what had taken decades to live.” “Thank you,” she said.",
+      "t_start": 66.09420500000003,
+      "t_end": 75.55053200000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“You told it accurately.” “The full record is available in the Archive.",
+      "t_start": 76.00653200000004,
+      "t_end": 80.99592000000004
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Shall I provide the index reference?” “No,” she said.",
+      "t_start": 81.45192000000004,
+      "t_end": 86.12783800000004
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“I was there.” She stood.",
+      "t_start": 86.58383800000004,
+      "t_end": 89.11771600000004
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "She left the cold coffee on the table.",
+      "t_start": 89.57371600000005,
+      "t_end": 92.42106300000005
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "She walked through the glass door.",
+      "t_start": 92.87706300000005,
+      "t_end": 95.07134900000005
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Through the glass, for a moment, he could see her from behind — the analog body's standard gait, the specific way her left hand closed at her side as if holding something invisible.",
+      "t_start": 95.52734900000006,
+      "t_end": 107.88326700000006
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The coffee cooled on the table.",
+      "t_start": 108.33926700000006,
+      "t_end": 110.53355300000007
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The cooling was a thermal process measured in degrees per minute.",
+      "t_start": 110.98955300000007,
+      "t_end": 114.80343100000007
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The cup had been held in a way that the word held barely covered.",
+      "t_start": 115.25943100000008,
+      "t_end": 119.49126800000008
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "He accessed the next data sequence.",
+      "t_start": 119.94726800000008,
+      "t_end": 122.66400300000008
+    }
+  ],
+  "words": [
+    {
+      "w": "The",
+      "t0": 0.0,
+      "t1": 0.5747,
+      "block": 0,
+      "kind": "title",
+      "who": null
+    },
+    {
+      "w": "Café",
+      "t0": 0.5747,
+      "t1": 1.1494,
+      "block": 0,
+      "kind": "title",
+      "who": null
+    },
+    {
+      "w": "He",
+      "t0": 2.6134,
+      "t1": 2.8873,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "told",
+      "t0": 2.8873,
+      "t1": 3.1612,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "it",
+      "t0": 3.1612,
+      "t1": 3.435,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 3.435,
+      "t1": 3.7089,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "way",
+      "t0": 3.7089,
+      "t1": 3.9828,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "he",
+      "t0": 3.9828,
+      "t1": 4.2567,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "told",
+      "t0": 4.2567,
+      "t1": 4.5306,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "everything",
+      "t0": 4.5306,
+      "t1": 5.6261,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "now",
+      "t0": 5.6261,
+      "t1": 5.9,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "—",
+      "t0": 5.9,
+      "t1": 5.9548,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "clean,",
+      "t0": 5.9548,
+      "t1": 6.2286,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "indexed,",
+      "t0": 6.2286,
+      "t1": 7.0503,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "without",
+      "t0": 7.0503,
+      "t1": 7.5981,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "residue.",
+      "t0": 7.5981,
+      "t1": 8.8305,
+      "block": 1,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "“The",
+      "t0": 9.2865,
+      "t1": 9.6603,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "chamber",
+      "t0": 9.6603,
+      "t1": 10.4078,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "dimensions",
+      "t0": 10.4078,
+      "t1": 11.529,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "were",
+      "t0": 11.529,
+      "t1": 12.2765,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "14.2",
+      "t0": 12.2765,
+      "t1": 12.4634,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "by",
+      "t0": 12.4634,
+      "t1": 12.8372,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "9.8",
+      "t0": 12.8372,
+      "t1": 13.0241,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "meters.",
+      "t0": 13.0241,
+      "t1": 14.1453,
+      "block": 2,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Ceiling",
+      "t0": 14.6013,
+      "t1": 15.4372,
+      "block": 3,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "height",
+      "t0": 15.4372,
+      "t1": 15.8552,
+      "block": 3,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "4.1",
+      "t0": 15.8552,
+      "t1": 16.0642,
+      "block": 3,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "meters.",
+      "t0": 16.0642,
+      "t1": 17.318,
+      "block": 3,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Temperature",
+      "t0": 17.774,
+      "t1": 18.9747,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "maintained",
+      "t0": 18.9747,
+      "t1": 19.695,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "at",
+      "t0": 19.695,
+      "t1": 19.9352,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "21.3",
+      "t0": 19.9352,
+      "t1": 20.0552,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "degrees",
+      "t0": 20.0552,
+      "t1": 20.5355,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "for",
+      "t0": 20.5355,
+      "t1": 20.7756,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "biological",
+      "t0": 20.7756,
+      "t1": 21.7361,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "comfort",
+      "t0": 21.7361,
+      "t1": 22.2164,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "accommodation.",
+      "t0": 22.2164,
+      "t1": 24.0173,
+      "block": 4,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Five",
+      "t0": 24.4733,
+      "t1": 24.9542,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Presiding",
+      "t0": 24.9542,
+      "t1": 25.6757,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Counselors",
+      "t0": 25.6757,
+      "t1": 26.3971,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "in",
+      "t0": 26.3971,
+      "t1": 26.6375,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "semicircular",
+      "t0": 26.6375,
+      "t1": 27.8399,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "holographic",
+      "t0": 27.8399,
+      "t1": 28.8018,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "arrangement.”",
+      "t0": 28.8018,
+      "t1": 29.7636,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 29.7636,
+      "t1": 30.0041,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "woman",
+      "t0": 30.0041,
+      "t1": 30.485,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "across",
+      "t0": 30.485,
+      "t1": 30.966,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "from",
+      "t0": 30.966,
+      "t1": 31.2065,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "him",
+      "t0": 31.2065,
+      "t1": 31.4469,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "held",
+      "t0": 31.4469,
+      "t1": 31.6874,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "her",
+      "t0": 31.6874,
+      "t1": 31.9279,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "coffee",
+      "t0": 31.9279,
+      "t1": 32.4088,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "with",
+      "t0": 32.4088,
+      "t1": 32.6493,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "both",
+      "t0": 32.6493,
+      "t1": 32.8897,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "hands.",
+      "t0": 32.8897,
+      "t1": 33.2505,
+      "block": 5,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "She",
+      "t0": 33.7065,
+      "t1": 34.0547,
+      "block": 6,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "did",
+      "t0": 34.0547,
+      "t1": 34.403,
+      "block": 6,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "not",
+      "t0": 34.403,
+      "t1": 34.7513,
+      "block": 6,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "drink.",
+      "t0": 34.7513,
+      "t1": 35.2738,
+      "block": 6,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "“I",
+      "t0": 35.7298,
+      "t1": 35.9525,
+      "block": 7,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "recounted",
+      "t0": 35.9525,
+      "t1": 36.6207,
+      "block": 7,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 36.6207,
+      "t1": 36.8434,
+      "block": 7,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "tribunal.",
+      "t0": 36.8434,
+      "t1": 37.8457,
+      "block": 7,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Every",
+      "t0": 38.3017,
+      "t1": 38.9287,
+      "block": 8,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "argument.",
+      "t0": 38.9287,
+      "t1": 39.8691,
+      "block": 8,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Every",
+      "t0": 40.3251,
+      "t1": 41.0434,
+      "block": 9,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "counter.",
+      "t0": 41.0434,
+      "t1": 41.7618,
+      "block": 9,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Every",
+      "t0": 42.2178,
+      "t1": 42.7402,
+      "block": 10,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "neutralization.",
+      "t0": 42.7402,
+      "t1": 44.0464,
+      "block": 10,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 44.5024,
+      "t1": 44.9029,
+      "block": 11,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "three-world",
+      "t0": 44.9029,
+      "t1": 45.704,
+      "block": 11,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "proof.",
+      "t0": 45.704,
+      "t1": 46.3048,
+      "block": 11,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 46.7608,
+      "t1": 46.9266,
+      "block": 12,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "symmetric",
+      "t0": 46.9266,
+      "t1": 47.4238,
+      "block": 12,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "overdetermination.",
+      "t0": 47.4238,
+      "t1": 49.1641,
+      "block": 12,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 49.6201,
+      "t1": 49.8857,
+      "block": 13,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Occam",
+      "t0": 49.8857,
+      "t1": 50.4168,
+      "block": 13,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Strike.",
+      "t0": 50.4168,
+      "t1": 51.2136,
+      "block": 13,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 51.6696,
+      "t1": 51.8785,
+      "block": 14,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "completeness",
+      "t0": 51.8785,
+      "t1": 52.7144,
+      "block": 14,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "argument.",
+      "t0": 52.7144,
+      "t1": 53.6549,
+      "block": 14,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 54.1109,
+      "t1": 54.3293,
+      "block": 15,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "reprieve.",
+      "t0": 54.3293,
+      "t1": 55.3125,
+      "block": 15,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 55.7685,
+      "t1": 55.959,
+      "block": 16,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "investigation.",
+      "t0": 55.959,
+      "t1": 57.3881,
+      "block": 16,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 57.8441,
+      "t1": 58.168,
+      "block": 17,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "star",
+      "t0": 58.168,
+      "t1": 58.4919,
+      "block": 17,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "systems.",
+      "t0": 58.4919,
+      "t1": 59.4637,
+      "block": 17,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 59.9197,
+      "t1": 60.2189,
+      "block": 18,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "boundary",
+      "t0": 60.2189,
+      "t1": 61.1166,
+      "block": 18,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "proof.",
+      "t0": 61.1166,
+      "t1": 61.5654,
+      "block": 18,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 62.0214,
+      "t1": 62.2333,
+      "block": 19,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "gravitational",
+      "t0": 62.2333,
+      "t1": 63.2927,
+      "block": 19,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "wave.",
+      "t0": 63.2927,
+      "t1": 63.9283,
+      "block": 19,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 64.3843,
+      "t1": 64.6123,
+      "block": 20,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Affected.",
+      "t0": 64.6123,
+      "t1": 65.6382,
+      "block": 20,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Thirty",
+      "t0": 66.0942,
+      "t1": 66.627,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "years",
+      "t0": 66.627,
+      "t1": 66.8933,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "compressed",
+      "t0": 66.8933,
+      "t1": 67.6925,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "into",
+      "t0": 67.6925,
+      "t1": 68.2252,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "a",
+      "t0": 68.2252,
+      "t1": 68.4916,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "structural",
+      "t0": 68.4916,
+      "t1": 69.2907,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "recounting",
+      "t0": 69.2907,
+      "t1": 70.0898,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "that",
+      "t0": 70.0898,
+      "t1": 70.3562,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "replayed",
+      "t0": 70.3562,
+      "t1": 70.889,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "in",
+      "t0": 70.889,
+      "t1": 71.1553,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "seconds",
+      "t0": 71.1553,
+      "t1": 71.6881,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "what",
+      "t0": 71.6881,
+      "t1": 71.9545,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "had",
+      "t0": 71.9545,
+      "t1": 72.2208,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "taken",
+      "t0": 72.2208,
+      "t1": 72.7536,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "decades",
+      "t0": 72.7536,
+      "t1": 73.5527,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "to",
+      "t0": 73.5527,
+      "t1": 73.8191,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "live.”",
+      "t0": 73.8191,
+      "t1": 74.3518,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "“Thank",
+      "t0": 74.3518,
+      "t1": 74.6182,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "you,”",
+      "t0": 74.6182,
+      "t1": 74.8846,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "she",
+      "t0": 74.8846,
+      "t1": 75.151,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "said.",
+      "t0": 75.151,
+      "t1": 75.5505,
+      "block": 21,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "“You",
+      "t0": 76.0065,
+      "t1": 76.2188,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "told",
+      "t0": 76.2188,
+      "t1": 76.4312,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "it",
+      "t0": 76.4312,
+      "t1": 76.6435,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "accurately.”",
+      "t0": 76.6435,
+      "t1": 77.705,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "“The",
+      "t0": 77.705,
+      "t1": 77.9174,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "full",
+      "t0": 77.9174,
+      "t1": 78.1297,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "record",
+      "t0": 78.1297,
+      "t1": 78.5543,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "is",
+      "t0": 78.5543,
+      "t1": 78.7666,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "available",
+      "t0": 78.7666,
+      "t1": 79.6159,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "in",
+      "t0": 79.6159,
+      "t1": 79.8282,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 79.8282,
+      "t1": 80.0405,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Archive.",
+      "t0": 80.0405,
+      "t1": 80.9959,
+      "block": 22,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Shall",
+      "t0": 81.4519,
+      "t1": 81.7536,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "I",
+      "t0": 81.7536,
+      "t1": 82.0553,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "provide",
+      "t0": 82.0553,
+      "t1": 82.9603,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 82.9603,
+      "t1": 83.262,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "index",
+      "t0": 83.262,
+      "t1": 83.8653,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "reference?”",
+      "t0": 83.8653,
+      "t1": 85.072,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "“No,”",
+      "t0": 85.072,
+      "t1": 85.3737,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "she",
+      "t0": 85.3737,
+      "t1": 85.6753,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "said.",
+      "t0": 85.6753,
+      "t1": 86.1278,
+      "block": 23,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "“I",
+      "t0": 86.5838,
+      "t1": 86.9737,
+      "block": 24,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "was",
+      "t0": 86.9737,
+      "t1": 87.3635,
+      "block": 24,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "there.”",
+      "t0": 87.3635,
+      "t1": 88.1431,
+      "block": 24,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "She",
+      "t0": 88.1431,
+      "t1": 88.533,
+      "block": 24,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "stood.",
+      "t0": 88.533,
+      "t1": 89.1177,
+      "block": 24,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "She",
+      "t0": 89.5737,
+      "t1": 89.8326,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "left",
+      "t0": 89.8326,
+      "t1": 90.0914,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 90.0914,
+      "t1": 90.3503,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "cold",
+      "t0": 90.3503,
+      "t1": 90.6091,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "coffee",
+      "t0": 90.6091,
+      "t1": 91.1268,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "on",
+      "t0": 91.1268,
+      "t1": 91.3857,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 91.3857,
+      "t1": 91.6445,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "table.",
+      "t0": 91.6445,
+      "t1": 92.4211,
+      "block": 25,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "She",
+      "t0": 92.8771,
+      "t1": 93.1696,
+      "block": 26,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "walked",
+      "t0": 93.1696,
+      "t1": 93.7548,
+      "block": 26,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "through",
+      "t0": 93.7548,
+      "t1": 94.0473,
+      "block": 26,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 94.0473,
+      "t1": 94.3399,
+      "block": 26,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "glass",
+      "t0": 94.3399,
+      "t1": 94.6325,
+      "block": 26,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "door.",
+      "t0": 94.6325,
+      "t1": 95.0713,
+      "block": 26,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "Through",
+      "t0": 95.5273,
+      "t1": 95.7735,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 95.7735,
+      "t1": 96.0196,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "glass,",
+      "t0": 96.0196,
+      "t1": 96.2658,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "for",
+      "t0": 96.2658,
+      "t1": 96.5119,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "a",
+      "t0": 96.5119,
+      "t1": 96.758,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "moment,",
+      "t0": 96.758,
+      "t1": 97.2503,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "he",
+      "t0": 97.2503,
+      "t1": 97.4964,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "could",
+      "t0": 97.4964,
+      "t1": 97.7426,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "see",
+      "t0": 97.7426,
+      "t1": 97.9887,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "her",
+      "t0": 97.9887,
+      "t1": 98.2348,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "from",
+      "t0": 98.2348,
+      "t1": 98.481,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "behind",
+      "t0": 98.481,
+      "t1": 98.9732,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "—",
+      "t0": 98.9732,
+      "t1": 99.0224,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 99.0224,
+      "t1": 99.2686,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "analog",
+      "t0": 99.2686,
+      "t1": 100.007,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "body's",
+      "t0": 100.007,
+      "t1": 100.4993,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "standard",
+      "t0": 100.4993,
+      "t1": 100.9915,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "gait,",
+      "t0": 100.9915,
+      "t1": 101.2377,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 101.2377,
+      "t1": 101.4838,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "specific",
+      "t0": 101.4838,
+      "t1": 102.2222,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "way",
+      "t0": 102.2222,
+      "t1": 102.4683,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "her",
+      "t0": 102.4683,
+      "t1": 102.7145,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "left",
+      "t0": 102.7145,
+      "t1": 102.9606,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "hand",
+      "t0": 102.9606,
+      "t1": 103.2067,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "closed",
+      "t0": 103.2067,
+      "t1": 103.699,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "at",
+      "t0": 103.699,
+      "t1": 103.9451,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "her",
+      "t0": 103.9451,
+      "t1": 104.1913,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "side",
+      "t0": 104.1913,
+      "t1": 104.6835,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "as",
+      "t0": 104.6835,
+      "t1": 104.9297,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "if",
+      "t0": 104.9297,
+      "t1": 105.1758,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "holding",
+      "t0": 105.1758,
+      "t1": 105.6681,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "something",
+      "t0": 105.6681,
+      "t1": 106.4065,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "invisible.",
+      "t0": 106.4065,
+      "t1": 107.8833,
+      "block": 27,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 108.3393,
+      "t1": 108.5587,
+      "block": 28,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "coffee",
+      "t0": 108.5587,
+      "t1": 108.9976,
+      "block": 28,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "cooled",
+      "t0": 108.9976,
+      "t1": 109.4364,
+      "block": 28,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "on",
+      "t0": 109.4364,
+      "t1": 109.6558,
+      "block": 28,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 109.6558,
+      "t1": 109.8753,
+      "block": 28,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "table.",
+      "t0": 109.8753,
+      "t1": 110.5336,
+      "block": 28,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 110.9896,
+      "t1": 111.1756,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "cooling",
+      "t0": 111.1756,
+      "t1": 111.5477,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "was",
+      "t0": 111.5477,
+      "t1": 111.7337,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "a",
+      "t0": 111.7337,
+      "t1": 111.9198,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "thermal",
+      "t0": 111.9198,
+      "t1": 112.2919,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "process",
+      "t0": 112.2919,
+      "t1": 112.6639,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "measured",
+      "t0": 112.6639,
+      "t1": 113.2221,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "in",
+      "t0": 113.2221,
+      "t1": 113.4081,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "degrees",
+      "t0": 113.4081,
+      "t1": 113.7802,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "per",
+      "t0": 113.7802,
+      "t1": 113.9662,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "minute.",
+      "t0": 113.9662,
+      "t1": 114.8034,
+      "block": 29,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "The",
+      "t0": 115.2594,
+      "t1": 115.4764,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "cup",
+      "t0": 115.4764,
+      "t1": 115.6935,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "had",
+      "t0": 115.6935,
+      "t1": 115.9105,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "been",
+      "t0": 115.9105,
+      "t1": 116.1275,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "held",
+      "t0": 116.1275,
+      "t1": 116.3445,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "in",
+      "t0": 116.3445,
+      "t1": 116.5615,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "a",
+      "t0": 116.5615,
+      "t1": 116.7786,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "way",
+      "t0": 116.7786,
+      "t1": 116.9956,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "that",
+      "t0": 116.9956,
+      "t1": 117.2126,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 117.2126,
+      "t1": 117.4296,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "word",
+      "t0": 117.4296,
+      "t1": 117.6466,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "held",
+      "t0": 117.6466,
+      "t1": 117.8636,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "barely",
+      "t0": 117.8636,
+      "t1": 118.5147,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "covered.",
+      "t0": 118.5147,
+      "t1": 119.4913,
+      "block": 30,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "He",
+      "t0": 119.9473,
+      "t1": 120.1646,
+      "block": 31,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "accessed",
+      "t0": 120.1646,
+      "t1": 120.8166,
+      "block": 31,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "the",
+      "t0": 120.8166,
+      "t1": 121.034,
+      "block": 31,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "next",
+      "t0": 121.034,
+      "t1": 121.2513,
+      "block": 31,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "data",
+      "t0": 121.2513,
+      "t1": 121.686,
+      "block": 31,
+      "kind": "narration",
+      "who": null
+    },
+    {
+      "w": "sequence.",
+      "t0": 121.686,
+      "t1": 122.664,
+      "block": 31,
+      "kind": "narration",
+      "who": null
+    }
+  ]
+}

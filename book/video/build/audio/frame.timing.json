@@ -1,0 +1,262 @@
+{
+  "chapter": "frame",
+  "title": "The Café",
+  "duration": 123.12000300000008,
+  "model": "gpt-4o-mini-tts",
+  "blocks": [
+    {
+      "kind": "title",
+      "text": "The Café",
+      "t_start": 0.0,
+      "t_end": 1.149388
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "He told it the way he told everything now — clean, indexed, without residue.",
+      "t_start": 2.613388,
+      "t_end": 8.830531
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“The chamber dimensions were 14.2 by 9.8 meters.",
+      "t_start": 9.286531,
+      "t_end": 14.145306999999999
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Ceiling height 4.1 meters.",
+      "t_start": 14.601306999999998,
+      "t_end": 17.318042
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Temperature maintained at 21.3 degrees for biological comfort accommodation.",
+      "t_start": 17.774041999999998,
+      "t_end": 24.017307
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Five Presiding Counselors in semicircular holographic arrangement.” The woman across from him held her coffee with both hands.",
+      "t_start": 24.473307,
+      "t_end": 33.25045
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "She did not drink.",
+      "t_start": 33.706450000000004,
+      "t_end": 35.273797
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“I recounted the tribunal.",
+      "t_start": 35.729797000000005,
+      "t_end": 37.845715000000006
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Every argument.",
+      "t_start": 38.30171500000001,
+      "t_end": 39.86906200000001
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Every counter.",
+      "t_start": 40.32506200000001,
+      "t_end": 41.76179700000001
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Every neutralization.",
+      "t_start": 42.21779700000001,
+      "t_end": 44.04636800000001
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The three-world proof.",
+      "t_start": 44.50236800000001,
+      "t_end": 46.304817000000014
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The symmetric overdetermination.",
+      "t_start": 46.76081700000002,
+      "t_end": 49.164082000000015
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The Occam Strike.",
+      "t_start": 49.62008200000002,
+      "t_end": 51.21355100000002
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The completeness argument.",
+      "t_start": 51.66955100000002,
+      "t_end": 53.65485700000002
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The reprieve.",
+      "t_start": 54.110857000000024,
+      "t_end": 55.312490000000025
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The investigation.",
+      "t_start": 55.76849000000003,
+      "t_end": 57.388082000000026
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The star systems.",
+      "t_start": 57.84408200000003,
+      "t_end": 59.463674000000026
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The boundary proof.",
+      "t_start": 59.91967400000003,
+      "t_end": 61.56538800000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The gravitational wave.",
+      "t_start": 62.02138800000003,
+      "t_end": 63.92832700000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The Affected.",
+      "t_start": 64.38432700000003,
+      "t_end": 65.63820500000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Thirty years compressed into a structural recounting that replayed in seconds what had taken decades to live.” “Thank you,” she said.",
+      "t_start": 66.09420500000003,
+      "t_end": 75.55053200000003
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“You told it accurately.” “The full record is available in the Archive.",
+      "t_start": 76.00653200000004,
+      "t_end": 80.99592000000004
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Shall I provide the index reference?” “No,” she said.",
+      "t_start": 81.45192000000004,
+      "t_end": 86.12783800000004
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "“I was there.” She stood.",
+      "t_start": 86.58383800000004,
+      "t_end": 89.11771600000004
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "She left the cold coffee on the table.",
+      "t_start": 89.57371600000005,
+      "t_end": 92.42106300000005
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "She walked through the glass door.",
+      "t_start": 92.87706300000005,
+      "t_end": 95.07134900000005
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "Through the glass, for a moment, he could see her from behind — the analog body's standard gait, the specific way her left hand closed at her side as if holding something invisible.",
+      "t_start": 95.52734900000006,
+      "t_end": 107.88326700000006
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The coffee cooled on the table.",
+      "t_start": 108.33926700000006,
+      "t_end": 110.53355300000007
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The cooling was a thermal process measured in degrees per minute.",
+      "t_start": 110.98955300000007,
+      "t_end": 114.80343100000007
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "The cup had been held in a way that the word held barely covered.",
+      "t_start": 115.25943100000008,
+      "t_end": 119.49126800000008
+    },
+    {
+      "kind": "narration",
+      "who": null,
+      "voice": "ash",
+      "text": "He accessed the next data sequence.",
+      "t_start": 119.94726800000008,
+      "t_end": 122.66400300000008
+    }
+  ]
+}

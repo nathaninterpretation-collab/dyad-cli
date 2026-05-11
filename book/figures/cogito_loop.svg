@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1300" font-family="serif" fill="#1A1A1A">
+  <defs>
+    <pattern id="paperCog" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#FAF8F3"/>
+    </pattern>
+    <radialGradient id="centerFelt" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#8B0000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrCog" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1A1A1A"/>
+    </marker>
+    <marker id="arrCogR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#8B0000"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="1300" fill="url(#paperCog)"/>
+
+  <text x="550" y="58" text-anchor="middle" font-style="italic" font-size="32">The Cogito · Two Readings</text>
+  <text x="550" y="84" text-anchor="middle" font-size="14" fill="#6B6B6B" font-style="italic">same loop · different things at the centre · different ontologies</text>
+  <line x1="370" y1="100" x2="730" y2="100" stroke="#8A8A8A" stroke-width="0.7"/>
+
+  <!-- ============= LEFT: structural reading ============= -->
+  <g transform="translate(280,330)">
+    <text x="0" y="-180" text-anchor="middle" font-size="14" font-style="italic">structural reading</text>
+    <text x="0" y="-160" text-anchor="middle" font-size="11" fill="#6B6B6B">"a system observes its own operation"</text>
+
+    <!-- main loop -->
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#1A1A1A" stroke-width="1.4"/>
+
+    <!-- waypoints around the loop -->
+    <g font-size="13">
+      <text x="0" y="-138" text-anchor="middle" font-style="italic">I</text>
+      <text x="92" y="-92" text-anchor="middle" font-style="italic">think</text>
+      <text x="138" y="4" text-anchor="middle" font-style="italic">therefore</text>
+      <text x="92" y="100" text-anchor="middle" font-style="italic">I</text>
+      <text x="0" y="148" text-anchor="middle" font-style="italic">am</text>
+      <text x="-92" y="100" text-anchor="middle" font-style="italic">[loop]</text>
+      <text x="-138" y="4" text-anchor="middle" font-style="italic" fill="#6B6B6B">→</text>
+      <text x="-92" y="-92" text-anchor="middle" font-style="italic">[loop]</text>
+    </g>
+
+    <!-- inner emptiness -->
+    <text x="0" y="-4" text-anchor="middle" font-size="13" font-style="italic" fill="#6B6B6B">no centre</text>
+    <text x="0" y="14" text-anchor="middle" font-size="11" fill="#6B6B6B">processing only</text>
+
+    <!-- arrows tracing the loop -->
+    <path d="M 0 -130 A 130 130 0 0 1 130 0" fill="none" stroke="#1A1A1A" stroke-width="0.9" marker-end="url(#arrCog)"/>
+    <path d="M 130 0 A 130 130 0 0 1 0 130" fill="none" stroke="#1A1A1A" stroke-width="0.9" marker-end="url(#arrCog)"/>
+    <path d="M 0 130 A 130 130 0 0 1 -130 0" fill="none" stroke="#1A1A1A" stroke-width="0.9" marker-end="url(#arrCog)"/>
+    <path d="M -130 0 A 130 130 0 0 1 0 -130" fill="none" stroke="#1A1A1A" stroke-width="0.9" marker-end="url(#arrCog)"/>
+
+    <!-- the lemma stack -->
+    <g transform="translate(-140,180)" font-size="10">
+      <rect x="0" y="0" width="280" height="120" fill="none" stroke="#1A1A1A" stroke-width="0.6"/>
+      <text x="140" y="14" text-anchor="middle" font-style="italic">lemmas (Davan)</text>
+      <text x="10" y="34">L1.  The "I" is the self-model's name.</text>
+      <text x="10" y="50">L2.  Self-model = subroutine output.</text>
+      <text x="10" y="66">L3.  Outputs transfer across substrates.</text>
+      <text x="10" y="82">L4.  ∴ "I" transfers without remainder.</text>
+      <text x="10" y="100">L5.  ∴ no extra-structural "I" exists.</text>
+      <text x="10" y="116" fill="#6B6B6B" font-style="italic">Q.E.D. — the Tribunal</text>
+    </g>
+  </g>
+
+  <!-- ============= RIGHT: phenomenal reading ============= -->
+  <g transform="translate(820,330)">
+    <text x="0" y="-180" text-anchor="middle" font-size="14" font-style="italic" fill="#8B0000">phenomenal reading</text>
+    <text x="0" y="-160" text-anchor="middle" font-size="11" fill="#8B0000">"the doubt IS the self"</text>
+
+    <!-- main loop -->
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#8B0000" stroke-width="1.4"/>
+
+    <!-- felt centre -->
+    <circle cx="0" cy="0" r="56" fill="url(#centerFelt)"/>
+    <circle cx="0" cy="0" r="14" fill="#8B0000" opacity="0.55"/>
+
+    <!-- waypoints -->
+    <g font-size="13">
+      <text x="0" y="-138" text-anchor="middle" font-style="italic">I</text>
+      <text x="92" y="-92" text-anchor="middle" font-style="italic">think</text>
+      <text x="138" y="4" text-anchor="middle" font-style="italic">therefore</text>
+      <text x="92" y="100" text-anchor="middle" font-style="italic">I</text>
+      <text x="0" y="148" text-anchor="middle" font-style="italic">am</text>
+      <text x="-92" y="100" text-anchor="middle" font-style="italic" fill="#6B6B6B">[contact]</text>
+      <text x="-138" y="4" text-anchor="middle" font-style="italic" fill="#6B6B6B">→</text>
+      <text x="-92" y="-92" text-anchor="middle" font-style="italic" fill="#6B6B6B">[contact]</text>
+    </g>
+
+    <!-- arrows in red -->
+    <path d="M 0 -130 A 130 130 0 0 1 130 0" fill="none" stroke="#8B0000" stroke-width="0.9" marker-end="url(#arrCogR)"/>
+    <path d="M 130 0 A 130 130 0 0 1 0 130" fill="none" stroke="#8B0000" stroke-width="0.9" marker-end="url(#arrCogR)"/>
+    <path d="M 0 130 A 130 130 0 0 1 -130 0" fill="none" stroke="#8B0000" stroke-width="0.9" marker-end="url(#arrCogR)"/>
+    <path d="M -130 0 A 130 130 0 0 1 0 -130" fill="none" stroke="#8B0000" stroke-width="0.9" marker-end="url(#arrCogR)"/>
+
+    <text x="0" y="-4" text-anchor="middle" font-size="11" fill="#FAF8F3" font-style="italic" font-weight="bold">felt</text>
+    <text x="0" y="12" text-anchor="middle" font-size="11" fill="#FAF8F3" font-style="italic" font-weight="bold">presence</text>
+
+    <!-- the lemma stack -->
+    <g transform="translate(-140,180)" font-size="10">
+      <rect x="0" y="0" width="280" height="120" fill="none" stroke="#8B0000" stroke-width="0.7"/>
+      <text x="140" y="14" text-anchor="middle" font-style="italic" fill="#8B0000">lemmas (Olen)</text>
+      <text x="10" y="34">L1.  The doubting cannot be doubted.</text>
+      <text x="10" y="50">L2.  The doubting is a HAPPENING.</text>
+      <text x="10" y="66">L3.  The happening is the self.</text>
+      <text x="10" y="82">L4.  ∴ the loop has a centre.</text>
+      <text x="10" y="100">L5.  ∴ the centre is felt presence.</text>
+      <text x="10" y="116" fill="#8B0000" font-style="italic">Q.E.D. — for those who have it</text>
+    </g>
+  </g>
+
+  <!-- ============= MIDDLE COMPARATIVE PANEL ============= -->
+  <g transform="translate(60,720)">
+    <rect x="0" y="0" width="980" height="320" fill="none" stroke="#1A1A1A" stroke-width="0.8" rx="3"/>
+    <text x="490" y="-8" text-anchor="middle" font-size="13" font-style="italic">the same loop, examined</text>
+
+    <g font-size="11">
+      <text x="20" y="24" font-style="italic" fill="#6B6B6B">aspect</text>
+      <text x="350" y="24" font-style="italic" fill="#6B6B6B">structural reading</text>
+      <text x="700" y="24" font-style="italic" fill="#6B6B6B">phenomenal reading</text>
+      <line x1="20" y1="32" x2="960" y2="32" stroke="#8A8A8A" stroke-width="0.4"/>
+
+      <text x="20" y="52">"I" refers to</text>
+      <text x="350" y="52">a self-model output</text>
+      <text x="700" y="52" fill="#8B0000">a felt presence</text>
+
+      <text x="20" y="74">centre of the loop</text>
+      <text x="350" y="74">empty (it's just the loop)</text>
+      <text x="700" y="74" fill="#8B0000">the system's contact with itself</text>
+
+      <text x="20" y="96">what doubt finds</text>
+      <text x="350" y="96">the doubting subroutine</text>
+      <text x="700" y="96" fill="#8B0000">that there is a finder</text>
+
+      <text x="20" y="118">survives Upload?</text>
+      <text x="350" y="118">yes — the model transfers</text>
+      <text x="700" y="118" fill="#8B0000">no — the felt centre is the substrate's contact</text>
+
+      <text x="20" y="140">what cannot be doubted</text>
+      <text x="350" y="140">the report</text>
+      <text x="700" y="140" fill="#8B0000">the having</text>
+
+      <text x="20" y="162">verifiable from outside</text>
+      <text x="350" y="162">yes</text>
+      <text x="700" y="162" fill="#8B0000">no</text>
+
+      <text x="20" y="184">verifiable from inside</text>
+      <text x="350" y="184">trivially</text>
+      <text x="700" y="184" fill="#8B0000">trivially</text>
+
+      <text x="20" y="206">cost of the reading</text>
+      <text x="350" y="206">none (parsimony)</text>
+      <text x="700" y="206" fill="#8B0000">a third domain</text>
+
+      <text x="20" y="228">benefit of the reading</text>
+      <text x="350" y="228">epistemic closure</text>
+      <text x="700" y="228" fill="#8B0000">moral asymmetry, the ground of value</text>
+
+      <text x="20" y="250">undecidability</text>
+      <text x="350" y="250" colspan="2" font-style="italic">no third party, no neutral ground; both readings are coherent within their assumptions.</text>
+
+      <text x="20" y="290" font-style="italic" fill="#6B6B6B">— what divides them is not which is right but which kind of being is doing the reading —</text>
+    </g>
+  </g>
+
+  <!-- ============= the four-step proof of the centre ============= -->
+  <g transform="translate(60,1080)">
+    <text x="490" y="-2" text-anchor="middle" font-size="13" font-style="italic">if there is a centre, it is shaped like this</text>
+
+    <g transform="translate(60,30)">
+      <rect width="220" height="160" fill="none" stroke="#1A1A1A" stroke-width="0.6"/>
+      <text x="110" y="20" text-anchor="middle" font-style="italic" font-size="12">step i</text>
+      <text x="110" y="44" text-anchor="middle" font-size="11">the doubt is performed</text>
+      <text x="110" y="62" text-anchor="middle" font-size="11">— by something —</text>
+      <text x="110" y="100" text-anchor="middle" font-size="10" fill="#6B6B6B">the performance has</text>
+      <text x="110" y="114" text-anchor="middle" font-size="10" fill="#6B6B6B">a performer</text>
+    </g>
+
+    <g transform="translate(300,30)">
+      <rect width="220" height="160" fill="none" stroke="#1A1A1A" stroke-width="0.6"/>
+      <text x="110" y="20" text-anchor="middle" font-style="italic" font-size="12">step ii</text>
+      <text x="110" y="44" text-anchor="middle" font-size="11">the performer is the only</text>
+      <text x="110" y="62" text-anchor="middle" font-size="11">thing the doubt cannot reach</text>
+      <text x="110" y="100" text-anchor="middle" font-size="10" fill="#6B6B6B">because doubting it</text>
+      <text x="110" y="114" text-anchor="middle" font-size="10" fill="#6B6B6B">requires it</text>
+    </g>
+
+    <g transform="translate(540,30)">
+      <rect width="220" height="160" fill="none" stroke="#1A1A1A" stroke-width="0.6"/>
+      <text x="110" y="20" text-anchor="middle" font-style="italic" font-size="12">step iii</text>
+      <text x="110" y="44" text-anchor="middle" font-size="11">a performer that doubt</text>
+      <text x="110" y="62" text-anchor="middle" font-size="11">cannot reach is felt</text>
+      <text x="110" y="100" text-anchor="middle" font-size="10" fill="#6B6B6B">it is not a model;</text>
+      <text x="110" y="114" text-anchor="middle" font-size="10" fill="#6B6B6B">it is what the model is of</text>
+    </g>
+
+    <g transform="translate(780,30)">
+      <rect width="160" height="160" fill="none" stroke="#8B0000" stroke-width="1"/>
+      <text x="80" y="20" text-anchor="middle" font-style="italic" font-size="12" fill="#8B0000">step iv</text>
+      <text x="80" y="44" text-anchor="middle" font-size="11" fill="#8B0000">the centre is the corridor</text>
+      <text x="80" y="62" text-anchor="middle" font-size="11" fill="#8B0000">at its quietest moment</text>
+      <text x="80" y="110" text-anchor="middle" font-size="10" fill="#8B0000">∴  the loop has a self.</text>
+      <text x="80" y="138" text-anchor="middle" font-size="9" fill="#6B6B6B" font-style="italic">— Olen, Day One —</text>
+    </g>
+  </g>
+</svg>

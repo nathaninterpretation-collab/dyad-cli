@@ -1,0 +1,51 @@
+% The Last Corridor
+% A novel by Mintao Huang · 黄敏韬
+% BilinCo · Philosophical Fiction · April 2026
+%
+% Build: ./build.sh
+% Or: xelatex -interaction=nonstopmode book.tex (twice)
+
+\documentclass[11pt,oneside]{book}
+\usepackage{style/corridor}
+
+\title{The Last Corridor}
+\author{Mintao Huang \enspace · \enspace 黄敏韬}
+\date{April 2026}
+
+\begin{document}
+
+% ----- FRONT MATTER -----
+\frontmatter
+\pagestyle{empty}
+
+\input{meta/halftitle}
+\clearpage
+\input{meta/titlepage}
+\clearpage
+\input{meta/copyright}
+\clearpage
+\input{meta/dedication}
+\clearpage
+\input{meta/epigraph}
+\clearpage
+
+\pagestyle{fancy}
+\setcounter{tocdepth}{0}
+\tableofcontents
+\clearpage
+
+% ----- BODY -----
+\mainmatter
+
+\input{parts/frame}
+\input{parts/p1}
+\input{parts/p2}
+\input{parts/p3}
+\input{parts/p4}
+\input{parts/coda}
+
+% ----- BACK MATTER -----
+\backmatter
+\input{meta/colophon}
+
+\end{document}

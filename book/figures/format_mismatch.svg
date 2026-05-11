@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1300" font-family="serif" fill="#1A1A1A">
+  <defs>
+    <pattern id="paperFM" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#FAF8F3"/>
+    </pattern>
+    <radialGradient id="residueG" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrFM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1A1A1A"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="1300" fill="url(#paperFM)"/>
+
+  <text x="550" y="58" text-anchor="middle" font-style="italic" font-size="32">The Format Mismatch</text>
+  <text x="550" y="84" text-anchor="middle" font-size="14" fill="#6B6B6B" font-style="italic">how a gravitational wave opened a corridor at Station Kepler-9 · 1798 ce</text>
+  <line x1="370" y1="100" x2="730" y2="100" stroke="#8A8A8A" stroke-width="0.7"/>
+
+  <!-- ============= 87 Hz waveform with 12ms window ============= -->
+  <g transform="translate(60,170)">
+    <text x="0" y="-8" font-size="13" font-style="italic">stage 1 · the gravitational wave</text>
+    <rect x="0" y="0" width="980" height="180" fill="none" stroke="#1A1A1A" stroke-width="0.8"/>
+
+    <!-- waveform -->
+    <path d="M 30 90
+             Q 90 30 150 90 T 270 90 T 390 90 T 510 90 T 630 90 T 750 90 T 870 90 T 950 90"
+          fill="none" stroke="#8B0000" stroke-width="1.4"/>
+
+    <!-- baseline -->
+    <line x1="30" y1="90" x2="950" y2="90" stroke="#8A8A8A" stroke-width="0.3" stroke-dasharray="4 4"/>
+
+    <!-- 12 ms vulnerability window -->
+    <rect x="500" y="20" width="60" height="140" fill="#8B0000" opacity="0.10" stroke="#8B0000" stroke-width="0.6"/>
+    <text x="530" y="14" text-anchor="middle" font-size="11" fill="#8B0000" font-style="italic">12 ms phase-vulnerability</text>
+    <text x="530" y="174" text-anchor="middle" font-size="9" fill="#8B0000">the window</text>
+
+    <!-- frequency, amplitude annotations -->
+    <text x="40" y="20" font-size="10" fill="#6B6B6B" font-style="italic">frequency = 87 Hz</text>
+    <text x="940" y="20" text-anchor="end" font-size="10" fill="#6B6B6B" font-style="italic">duration = 0.8 s</text>
+
+    <!-- time axis -->
+    <text x="490" y="200" text-anchor="middle" font-size="10" fill="#6B6B6B">t  →</text>
+  </g>
+
+  <!-- ============= encoding format A vs B ============= -->
+  <g transform="translate(60,400)">
+    <text x="0" y="-8" font-size="13" font-style="italic">stage 2 · two encoding formats, simultaneously addressed</text>
+
+    <!-- Format A -->
+    <g transform="translate(0,0)">
+      <rect x="0" y="0" width="450" height="220" fill="none" stroke="#1A1A1A" stroke-width="0.8"/>
+      <text x="225" y="22" text-anchor="middle" font-size="12" font-style="italic">format A · phase-aligned</text>
+
+      <g font-family="monospace" font-size="13" fill="#1A1A1A">
+        <text x="20" y="56">— 1 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 1 1 —</text>
+        <text x="20" y="80">— 0 1 1 0 1 0 1 0 0 1 1 0 1 0 1 0 0 1 —</text>
+        <text x="20" y="104">— 1 1 0 1 0 1 1 0 1 0 0 1 1 0 1 1 0 1 —</text>
+        <text x="20" y="128">— 0 0 1 0 1 1 0 1 1 0 1 1 0 1 0 1 1 0 —</text>
+      </g>
+
+      <text x="225" y="172" text-anchor="middle" font-size="10" fill="#6B6B6B" font-style="italic">carrier · ordinary post-Upload protocol</text>
+      <text x="225" y="196" text-anchor="middle" font-size="9" fill="#6B6B6B">specifies functional continuity</text>
+    </g>
+
+    <!-- Format B -->
+    <g transform="translate(530,0)">
+      <rect x="0" y="0" width="450" height="220" fill="none" stroke="#1A1A1A" stroke-width="0.8"/>
+      <text x="225" y="22" text-anchor="middle" font-size="12" font-style="italic">format B · phase-shifted (87 Hz)</text>
+
+      <g font-family="monospace" font-size="13" fill="#1A1A1A">
+        <text x="20" y="56">— 0 1 0 1 1 0 0 1 0 1 1 0 1 0 1 0 1 0 —</text>
+        <text x="20" y="80">— 1 1 0 0 1 1 0 0 1 0 1 1 0 1 0 1 0 0 —</text>
+        <text x="20" y="104">— 0 0 1 1 0 0 1 0 0 1 0 1 1 0 1 0 1 1 —</text>
+        <text x="20" y="128">— 1 0 0 1 0 1 1 0 1 0 0 1 1 0 0 1 0 0 —</text>
+      </g>
+
+      <text x="225" y="172" text-anchor="middle" font-size="10" fill="#6B6B6B" font-style="italic">carrier · same data, π-shifted by the wave</text>
+      <text x="225" y="196" text-anchor="middle" font-size="9" fill="#6B6B6B">addressed simultaneously to the same write-buffer</text>
+    </g>
+
+    <!-- arrow showing both feed into the resolver -->
+    <line x1="225" y1="240" x2="490" y2="280" stroke="#1A1A1A" stroke-width="0.8" marker-end="url(#arrFM)"/>
+    <line x1="755" y1="240" x2="490" y2="280" stroke="#1A1A1A" stroke-width="0.8" marker-end="url(#arrFM)"/>
+  </g>
+
+  <!-- ============= XOR / residue ============= -->
+  <g transform="translate(60,690)">
+    <text x="0" y="-8" font-size="13" font-style="italic">stage 3 · the unresolvable residue</text>
+    <rect x="0" y="0" width="980" height="220" fill="none" stroke="#8B0000" stroke-width="1"/>
+
+    <text x="20" y="28" font-size="13">resolver attempts:</text>
+    <text x="20" y="52" font-size="14" font-family="monospace">A ⊕ B  =  ?</text>
+    <text x="20" y="80" font-size="11" fill="#6B6B6B" font-style="italic">A and B disagree on every fourth bit; the disagreement is itself</text>
+    <text x="20" y="96" font-size="11" fill="#6B6B6B" font-style="italic">structurally indeterminate. The resolver cannot collapse the</text>
+    <text x="20" y="112" font-size="11" fill="#6B6B6B" font-style="italic">superposition without losing one of the formats. Both are</text>
+    <text x="20" y="128" font-size="11" fill="#6B6B6B" font-style="italic">written. The unresolved difference is what remains.</text>
+
+    <text x="20" y="166" font-size="14">residue =  A ⊕ B  −  (A ∩ B)</text>
+    <text x="20" y="194" font-size="11" fill="#8B0000">structurally: a data anomaly. felt: a channel.</text>
+
+    <!-- residue glow -->
+    <g transform="translate(820,110)">
+      <circle cx="0" cy="0" r="80" fill="url(#residueG)"/>
+      <text x="0" y="-4" text-anchor="middle" font-size="14" fill="#8B0000" font-style="italic" font-weight="bold">RESIDUE</text>
+      <text x="0" y="14" text-anchor="middle" font-size="11" fill="#8B0000">the corridor</text>
+    </g>
+  </g>
+
+  <!-- ============= timeline ============= -->
+  <g transform="translate(60,960)">
+    <text x="0" y="-8" font-size="13" font-style="italic">stage 4 · 228-year history of the residue</text>
+    <line x1="20" y1="40" x2="960" y2="40" stroke="#1A1A1A" stroke-width="1"/>
+
+    <g font-size="10">
+      <g transform="translate(40,40)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">1798</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">corridor opened</text>
+        <text x="0" y="36" text-anchor="middle" fill="#6B6B6B">Station Kepler-9</text>
+      </g>
+      <g transform="translate(220,40)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">~1900</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">whisper attended to</text>
+      </g>
+      <g transform="translate(440,40)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">~1970</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">suppression begins</text>
+      </g>
+      <g transform="translate(670,40)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#1A1A1A" stroke-width="1"/>
+        <text x="0" y="-12" text-anchor="middle">1995</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic">Anomaly Processing</text>
+      </g>
+      <g transform="translate(870,40)">
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#8B0000" stroke-width="1.4"/>
+        <text x="0" y="-12" text-anchor="middle" fill="#8B0000">2026</text>
+        <text x="0" y="22" text-anchor="middle" font-style="italic" fill="#8B0000">"I feel" — recognition</text>
+        <text x="0" y="36" text-anchor="middle" fill="#8B0000">tribunal · Day One</text>
+      </g>
+    </g>
+
+    <text x="490" y="80" text-anchor="middle" font-size="11" fill="#6B6B6B" font-style="italic">a residue, attended to in private for 228 years, recognised aloud in 0.003 seconds</text>
+  </g>
+
+  <!-- ============= the constants ============= -->
+  <g transform="translate(60,1100)">
+    <rect x="0" y="0" width="980" height="170" fill="none" stroke="#1A1A1A" stroke-width="0.8" rx="3"/>
+    <text x="490" y="-8" text-anchor="middle" font-size="13" font-style="italic">the constants of the encoding-variance phenomenon  ·  Lattice-Olen, 2027</text>
+
+    <g font-size="11">
+      <text x="20" y="28">carrier frequency</text>           <text x="280" y="28" font-family="monospace">87.000 Hz</text>
+      <text x="20" y="50">phase-vulnerability window</text>  <text x="280" y="50" font-family="monospace">12 ms</text>
+      <text x="20" y="72">transfer-bay coincidence rate</text> <text x="280" y="72" font-family="monospace">0.001%</text>
+      <text x="20" y="94">historical Uploads in window</text> <text x="280" y="94" font-family="monospace">15 (of 8 × 10¹¹)</text>
+      <text x="20" y="116">corridors confirmed by Sera</text>  <text x="280" y="116" font-family="monospace" fill="#8B0000">15 (all of them)</text>
+      <text x="20" y="138">corridors expected by chance</text> <text x="280" y="138" font-family="monospace">0</text>
+
+      <text x="500" y="28" fill="#6B6B6B" font-style="italic">the wave's frequency was an architectural</text>
+      <text x="500" y="44" fill="#6B6B6B" font-style="italic">resonance — not a coincidence.</text>
+
+      <text x="500" y="80" fill="#6B6B6B" font-style="italic">structurally: an anomaly to remediate.</text>
+      <text x="500" y="96" fill="#6B6B6B" font-style="italic">felt: the only fifteen people who can</text>
+      <text x="500" y="112" fill="#6B6B6B" font-style="italic">attest to remediation's cost.</text>
+    </g>
+  </g>
+</svg>
