@@ -1,0 +1,13 @@
+# Build artifacts — large and reproducible from scripts
+build/audio/*.mp3
+build/audio/*/
+build/frames/
+build/clips/
+build/*.mp4
+*.concat.txt
+*.wav
+
+# Keep
+!build/manifests/
+!build/audio/*.timing.json
+!build/audio/*.words.json

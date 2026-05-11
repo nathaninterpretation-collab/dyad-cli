@@ -1,0 +1,2 @@
+# This directory holds intermediate build artifacts.
+# The pipeline regenerates everything except this file.
